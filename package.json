@@ -1,0 +1,33 @@
+{
+  "name": "mqpdesign",
+  "version": "0.0.0",
+  "description": "mqpdesign",
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "build": "npm build",
+    "clean": "rmdir /s /q node_modules",
+    "reinstall": "npm run clean && npm install",
+    "rebuild": "npm run clean && npm install && npm run build"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bulma": "^0.9.3",
+    "child-process": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "fetch": "^1.1.0",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsdom": "^16.4.0",
+    "mdb-ui-kit": "^3.3.0",
+    "mdbootstrap": "^4.19.2",
+    "mongodb": "^3.6.4",
+    "node-fetch": "^2.6.1",
+    "node-wget": "^0.4.3",
+    "request": "^2.88.2",
+    "util": "^0.12.3",
+    "uuid": "^8.3.2",
+    "wget": "0.0.1"
+  }
+}
