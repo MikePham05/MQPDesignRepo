@@ -94,9 +94,29 @@
           </div>
           <div class="tile is-parent is-4">
 
-            <div class="tile is-child box">
-              <p class="title has-text-centered">Detected Faces</p>
+            <div id="studentBox" class="tile is-child box">
+              <p class="title has-text-centered">Students</p>
               <!-- row 1-->
+              <div id="studentRow" class="tile is parent m-1">
+                <div class="tile is-child image">
+                  <figure class="image is-96x96">
+                    <img id="image1" class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
+                  </figure>
+                </div>
+                <div class="tile is-child image">
+                  <figure class="image is-96x96">
+                    <img id="image2" class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
+                  </figure>
+                </div>
+                <div class="tile is-child image">
+                  <figure class="image is-96x96">
+                    <img id="image3" class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
+                  </figure>
+                </div>
+              </div>
+
+              <!--
+
               <div class="tile is parent m-1">
                 <div class="tile is-child image">
                   <figure class="image is-96x96">
@@ -116,7 +136,6 @@
               </div>
 
 
-              <!-- row 2-->
               <div class="tile is parent m-1">
                 <div class="tile is-child image">
                   <figure class="image is-96x96">
@@ -135,26 +154,7 @@
                 </div>
               </div>
 
-              <!-- row 3-->
-              <div class="tile is parent m-1">
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-              </div>
 
-              <!-- row 4-->
               <div class="tile is parent m-1">
                 <div class="tile is-child image">
                   <figure class="image is-96x96">
@@ -171,7 +171,7 @@
                     <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
                   </figure>
                 </div>
-              </div>
+              </div> -->
 
             </div>
           </div>
@@ -188,44 +188,81 @@
               </div>
               <!-- where clips show up-->
               <div class="section" id="data">
-
-                <div class="card">
-                  <div class="card-content">
-                    <figure class="image is-128x128 is-pulled-left mr-5">
-                      <img src="https://bulma.io/images/placeholders/128x128.png">
-                    </figure>
-                    <p class="title">
-                      “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
-                    </p>
-                    <p class="subtitle">
-                      Jeff Atwood
-                    </p>
+                <div id="clipBlock" class="tile is-parent is-4">
+                  <div id="clipEntry" class="tile is-child box">
+                    <div class="media">
+                      <div class="media-left">
+                        <figure class="image is-128X128">
+                          <img id="thumbnail1" src="https://bulma.io/images/placeholders/128x128.png" width="128px" height="128px" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="media-content">
+                        <p id="clipName" class="title is-4">Clip 1</p>
+                        <p id="clipTimeStamp" style="display:inline; white-space: nowrap;" class="subtitle is-6"><a id="TimeStamp1" href="">5:00</a> to <a id="TimeStamp2" href="">7:00</a></p>
+                      </div>
+                    </div>
                   </div>
-                  <footer class="card-footer">
-                    <p class="card-footer-item">
-                      <span>
-                        View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
-                      </span>
-                    </p>
-                    <p class="card-footer-item">
-                      <span>
-                        Share on <a href="#">Facebook</a>
-                      </span>
-                    </p>
-                  </footer>
                 </div>
+                <!--  <div id="cardExample" class="card">
 
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-left">
+                        <figure class="image">
+                          <img id="thumbnail1" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="media-content">
+                        <p class="title is-4">Clip 1</p>
+                        <p class="subtitle is-6">@clip1</p>
+                      </div>
 
+                      <table class="table is-striped ">
+                        <thead>
+                          <tr>
+                            <th>TimeStamp</th>
+                            <th>People Involved</th>
+                            <th>Gaze Connections</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a href="">5:00</a> to <a href="">7:00</a>
+                            <td><a href="">Student 1</a>, <a href="">Student 6</a>
+                            <td><a href="">Student 1</a> and <a href="">Student 6</td>
+                          </tr>
+                        </tbody>
+                      </table>-->
               </div>
-
             </div>
+
+
           </div>
+
         </div>
       </div>
     </div>
-
+    </div>
+    </div>
   </section>
 
+  <!-- handling tooltip functions-->
+
+  <div id="template" style="display: none;">
+    <p> picture here</p>
+  </div>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script>
+    const template = document.getElementById('template');
+
+    tippy("[id*='image']", {
+      content: template.innerHTML,
+      allowHTML: true,
+      interactive: true,
+      arrow: true,
+    });
+  </script>
 </body>
 
 </html>
