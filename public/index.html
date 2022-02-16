@@ -178,71 +178,44 @@
         </div>
 
         <div class="tile is-ancestor">
-          <div class="tile is-parent">
+          <div class="tile is-parent is-vertical is-12">
             <div class="tile is-child box">
               <!-- search field for clips-->
               <div class="field">
                 <div class="control is-large">
-                  <input id="input" class="input is-primary is-large" onkeyup="filterUsers()" type="text" placeholder="Search by name">
+                  <input id="input" class="input is-primary is-large" onkeyup="filterClips()" type="text" placeholder="Search by name">
                 </div>
               </div>
-              <!-- where clips show up-->
-              <div class="section" id="data">
-                <div id="clipBlock" class="tile is-parent is-4">
-                  <div id="clipEntry" class="tile is-child box">
-                    <div class="media">
-                      <div class="media-left">
-                        <figure class="image is-128X128">
-                          <img id="thumbnail1" src="https://bulma.io/images/placeholders/128x128.png" width="128px" height="128px" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="media-content">
-                        <p id="clipName" class="title is-4">Clip 1</p>
-                        <p id="clipTimeStamp" style="display:inline; white-space: nowrap;" class="subtitle is-6"><a id="TimeStamp1" href="">5:00</a> to <a id="TimeStamp2" href="">7:00</a></p>
+
+              <div class="section">
+                <div class="tile is-ancestor" id="data" style="display:inline-block;">
+                  <div id="clipBlock-0" class="tile is-parent is-12">
+                    <div id="clipEntry-0" class="tile is-child box">
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-128X128">
+                            <img id="thumbnail-0" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="media-content">
+                          <p id="clipName-0" class="title is-4">Clip 1</p>
+                          <p style="display:inline; white-space: nowrap;" id="clipTimeStamp-0" class=" subtitle is-6"><a id="TimeStamp1" href="">5:00</a> to <a id="TimeStamp2" href="">7:00</a></p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!--  <div id="cardExample" class="card">
-
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                        <figure class="image">
-                          <img id="thumbnail1" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="media-content">
-                        <p class="title is-4">Clip 1</p>
-                        <p class="subtitle is-6">@clip1</p>
-                      </div>
-
-                      <table class="table is-striped ">
-                        <thead>
-                          <tr>
-                            <th>TimeStamp</th>
-                            <th>People Involved</th>
-                            <th>Gaze Connections</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td><a href="">5:00</a> to <a href="">7:00</a>
-                            <td><a href="">Student 1</a>, <a href="">Student 6</a>
-                            <td><a href="">Student 1</a> and <a href="">Student 6</td>
-                          </tr>
-                        </tbody>
-                      </table>-->
               </div>
             </div>
-
+          </div>
+          <div id="data" class="tile is-parent">
+            <!-- where clips show up-->
 
           </div>
 
+
         </div>
       </div>
-    </div>
-    </div>
     </div>
   </section>
 

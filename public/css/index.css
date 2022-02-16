@@ -15,11 +15,6 @@ html, body, #app {
   border-bottom-color: #00d1b2;
 }
 
-.is-296x144 {
-  width: 296px;
-  height: 144px;
-}
-
 .faceImage {
   border-style: solid;
   border-width: 3px;
@@ -32,6 +27,14 @@ html, body, #app {
 
 a {
   color: #00d1b2;
+}
+
+#thumbnail1 {
+  display: block;
+  max-width: 230px;
+  max-height: 95px;
+  width: auto;
+  height: auto;
 }
 
 #app {
