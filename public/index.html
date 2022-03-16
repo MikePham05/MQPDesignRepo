@@ -2,240 +2,246 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>prototype 1</title>
-  <link rel="stylesheet" href="css/index.css">
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/index.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>prototype 1</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="emotionpeakvals.json"></script>
+
 </head>
 
 <body>
-  <nav class="navbar has-shadow">
-    <div class="navbar-brand">
-      <a class="nav-item">
-        <figure class="m-2 image is-48x48">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Animal_Crossing_Leaf.svg/2149px-Animal_Crossing_Leaf.svg.png">
-        </figure>
-      </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav-right">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    <div id="nav-right" class="navbar-end navbar-menu">
-      <a class="navbar-item is-tab is-hidden-tablet">
-        <span class="icon"><i class="fa fa-home"></i></span> Home
-      </a>
-      <a class="navbar-item is-tab is-hidden-tablet">
-        <span class="icon"><i class="fa fa-table"></i></span> Links
-      </a>
-      <a class="navbar-item is-tab is-hidden-tablet">
-        <span class="icon"><i class="fa fa-info"></i></span> About
-      </a>
-
-      <a class="navbar-item is-tab is-active">
-        <span class="icon"><i class="fa fa-user"></i></span>
-      </a>
-      <a class="navbar-item is-tab">
-        <span class="icon"><i class="fa fa-sign-out"></i></span>
-      </a>
-    </div>
-  </nav>
-
-  <section class="main-content columns is-fullheight">
-
-    <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
-      <p class="menu-label is-hidden-touch">Navigation</p>
-      <ul class="menu-list">
-        <li>
-          <a href="#" class="">
-            <span class="icon"><i class="fa fa-home"></i></span> Home
-          </a>
-        </li>
-        <li>
-          <a href="#" class="is-active">
-            <span class="icon"><i class="fa fa-table"></i></span> Links
-          </a>
-
-          <ul>
-            <li>
-              <a href="#">
-                <span class="icon is-small"><i class="fa fa-link"></i></span> Link1
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="icon is-small"><i class="fa fa-link"></i></span> Link2
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="#" class="">
-            <span class="icon"><i class="fa fa-info"></i></span> About
-          </a>
-        </li>
-      </ul>
-    </aside>
-
-    <div class="container column is-10">
-      <div class="section">
-        <!-- Page Setup-->
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box is-primary">
-              <p class="title has-text-centered">Video</p>
-              <figure class="image is-16by9">
-                <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/mgxDyrEnnoE" frameborder="0" allowfullscreen></iframe>
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent is-4">
-
-            <div id="studentBox" class="tile is-child box">
-              <p class="title has-text-centered">Students</p>
-              <!-- row 1-->
-              <div id="studentRow" class="tile is parent m-1">
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img id="image1" class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img id="image2" class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img id="image3" class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-              </div>
-
-              <!--
-
-              <div class="tile is parent m-1">
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-              </div>
-
-
-              <div class="tile is parent m-1">
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-              </div>
-
-
-              <div class="tile is parent m-1">
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-                <div class="tile is-child image">
-                  <figure class="image is-96x96">
-                    <img class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
-                  </figure>
-                </div>
-              </div> -->
-
-            </div>
-          </div>
+    <nav class="navbar has-shadow">
+        <div class="navbar-brand">
+            <a class="nav-item">
+                <figure class="m-2 image is-48x48">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Animal_Crossing_Leaf.svg/2149px-Animal_Crossing_Leaf.svg.png">
+                </figure>
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav-right">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
+        <div id="nav-right" class="navbar-end navbar-menu">
+            <a class="navbar-item is-tab is-hidden-tablet">
+                <span class="icon"><i class="fa fa-home"></i></span> Home
+            </a>
+            <a class="navbar-item is-tab is-hidden-tablet">
+                <span class="icon"><i class="fa fa-table"></i></span> Links
+            </a>
+            <a class="navbar-item is-tab is-hidden-tablet">
+                <span class="icon"><i class="fa fa-info"></i></span> About
+            </a>
 
-        <div class="tile is-ancestor">
-          <div class="tile is-parent is-vertical is-12">
-            <div class="tile is-child box">
-              <!-- search field for clips-->
-              <div class="field">
-                <div class="control is-large">
-                  <input id="input" class="input is-primary is-large" onkeyup="filterClips()" type="text" placeholder="Search by name">
-                </div>
-              </div>
+            <a class="navbar-item is-tab is-active">
+                <span class="icon"><i class="fa fa-user"></i></span>
+            </a>
+            <a class="navbar-item is-tab">
+                <span class="icon"><i class="fa fa-sign-out"></i></span>
+            </a>
+        </div>
+    </nav>
 
-              <div class="section">
-                <div class="tile is-ancestor" id="data" style="display:inline-block;">
-                  <div id="clipBlock-0" class="tile is-parent is-12">
-                    <div id="clipEntry-0" class="tile is-child box">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128X128">
-                            <img id="thumbnail-0" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p id="clipName-0" class="title is-4">Clip 1</p>
-                          <p style="display:inline; white-space: nowrap;" id="clipTimeStamp-0" class=" subtitle is-6"><a id="TimeStamp1" href="">5:00</a> to <a id="TimeStamp2" href="">7:00</a></p>
-                        </div>
-                      </div>
+    <section class="main-content columns is-fullheight">
+
+        <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
+            <p class="menu-label is-hidden-touch">Navigation</p>
+            <ul class="menu-list">
+                <li>
+                    <a href="#" class="">
+                        <span class="icon"><i class="fa fa-home"></i></span> Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="is-active">
+                        <span class="icon"><i class="fa fa-table"></i></span> Links
+                    </a>
+
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="icon is-small"><i class="fa fa-link"></i></span> Link1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon is-small"><i class="fa fa-link"></i></span> Link2
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="">
+                        <span class="icon"><i class="fa fa-info"></i></span> About
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="container column is-10">
+            <div class="section">
+                <!-- Page Setup-->
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <article class="tile is-child box is-primary">
+                            <p class="title has-text-centered" onclick="revertVideo()">Video</p>
+                            <figure class="image is-16by9">
+                                <iframe id="video" class="has-ratio" width="640" height="360" src="./hires_TE.mp4" frameborder="0" allowfullscreen></iframe>
+                            </figure>
+                        </article>
                     </div>
-                  </div>
+                    <div class="tile is-parent is-4">
+
+                        <div id="studentBox" class="tile is-child box">
+                            <p class="title has-text-centered">People</p>
+                            <!-- row 1-->
+                            <div id="studentRow" class="tile is parent m-1">
+                                <div class="tile is-child image">
+                                    <figure class="image is-96x96">
+                                        <img id="image1" onClick="personOnClick(this);" class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
+                                    </figure>
+                                </div>
+                                <div class="tile is-child image">
+                                    <figure class="image is-96x96">
+                                        <img id="image2" onClick="personOnClick(this);" class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
+                                    </figure>
+                                </div>
+                                <div class="tile is-child image">
+                                    <figure class="image is-96x96">
+                                        <img id="image3" onClick="personOnClick(this);" class=" faceImage is-rounded" src="https://bulma.io/images/placeholders/96x96.png">
+                                    </figure>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
-              </div>
+
+                <article class="panel is-success">
+                    <p class="panel-heading">
+                        Profile
+                        <span id="area" class="icon is-left">
+                            <img class="profilePic" src="./faceimages/0.0.jpg">
+                          </span>
+                    </p>
+                    <p class="panel-tabs">
+                        <a class="is-active">Top 3</a>
+                        <a>Emotions</a>
+                        <a>PlaceHolder</a>
+                        <a>PlaceHolder</a>
+                        <a>PlaceHolder</a>
+                    </p>
+
+                    <div class="panel-block">
+                        <p class="control has-icons-left">
+                            <span class="panel-icon">
+                                <i class="fas fa-book" aria-hidden="true"></i>
+                              </span>
+                            <a class="clipLink1">I Am a Clip</a>
+                        </p>
+                    </div>
+
+                    <div class="panel-block">
+                        <p class="control has-icons-left">
+                            <span class="panel-icon">
+                                <i class="fas fa-book" aria-hidden="true"></i>
+                              </span>
+                            <a class="clipLink2">I Am a Clip</a>
+                        </p>
+                    </div>
+
+                    <div class="panel-block">
+                        <p class="control has-icons-left">
+                            <span class="panel-icon">
+                                <i class="fas fa-book" aria-hidden="true"></i>
+                              </span>
+                            <a class="clipLink3">I Am a Clip</a>
+                        </p>
+                    </div>
+                    <!--
+                    
+                    <a class="panel-block is-active">
+                        <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span> bulma
+                    </a>
+                    <a class="panel-block">
+                        <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span> marksheet
+                    </a>
+                    <a class="panel-block">
+                        <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span> minireset.css
+                    </a>
+                    <a class="panel-block">
+                        <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span> jgthms.github.io
+                    </a>-->
+                </article>
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-vertical is-12">
+                        <div class="tile is-child box">
+                            <!-- search field for clips-->
+                            <div class="field">
+                                <div class="control is-large">
+                                    <input id="input" class="input is-primary is-large" onkeyup="filterClips()" type="text" placeholder="Search by name">
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <div class="tile is-ancestor" id="data" style="display:inline-block;">
+                                    <div id="clipBlock-0" class="tile is-parent is-12">
+                                        <div id="clipEntry-0" class="tile is-child box">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <figure class="image is-128X128">
+                                                        <img id="thumbnail-0" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+                                                    </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                    <p id="clipName-0" class="title is-4">Clip 1</p>
+                                                    <p style="display:inline; white-space: nowrap;" id="clipTimeStamp-0" class=" subtitle is-6"><a id="TimeStamp1" href="">5:00</a> to <a id="TimeStamp2" href="">7:00</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-          </div>
-          <div id="data" class="tile is-parent">
-            <!-- where clips show up-->
-
-          </div>
-
-
         </div>
-      </div>
+    </section>
+
+    <!-- handling tooltip functions-->
+
+    <div id="template" style="display: none;">
+        <p> picture here</p>
     </div>
-  </section>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script>
+        const template = document.getElementById('template');
 
-  <!-- handling tooltip functions-->
-
-  <div id="template" style="display: none;">
-    <p> picture here</p>
-  </div>
-  <script src="https://unpkg.com/@popperjs/core@2"></script>
-  <script src="https://unpkg.com/tippy.js@6"></script>
-  <script>
-    const template = document.getElementById('template');
-
-    tippy("[id*='image']", {
-      content: template.innerHTML,
-      allowHTML: true,
-      interactive: true,
-      arrow: true,
-    });
-  </script>
+        tippy("[id*='image']", {
+            content: template.innerHTML,
+            allowHTML: true,
+            interactive: true,
+            arrow: true,
+        });
+    </script>
 </body>
 
 </html>

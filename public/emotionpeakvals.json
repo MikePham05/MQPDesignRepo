@@ -1,0 +1,1954 @@
+[{
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[4.66666666667]",
+        "Start Value": "[1.5666666666700002]",
+        "Stop Value": "[7.76666666667]",
+        "Name": "Anger-2",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-2-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[6.66666666667]",
+        "Start Value": "[3.56666666667]",
+        "Stop Value": "[9.76666666667]",
+        "Name": "Anger-3",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-3-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[146.666666667]",
+        "Start Value": "[143.566666667]",
+        "Stop Value": "[149.76666666699998]",
+        "Name": "Anger-48",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-48-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[144.333333333]",
+        "Start Value": "[141.23333333300002]",
+        "Stop Value": "[147.433333333]",
+        "Name": "Anger-28",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-28-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[173.0]",
+        "Start Value": "[169.9]",
+        "Stop Value": "[176.1]",
+        "Name": "Anger-38",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-38-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[184.666666667]",
+        "Start Value": "[181.566666667]",
+        "Stop Value": "[187.76666666699998]",
+        "Name": "Anger-44",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-44-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[217.333333333]",
+        "Start Value": "[214.23333333300002]",
+        "Stop Value": "[220.433333333]",
+        "Name": "Anger-72",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-72-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[51.6666666667]",
+        "Start Value": "[48.5666666667]",
+        "Stop Value": "[54.766666666700004]",
+        "Name": "Anger-28",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-28-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[198.333333333]",
+        "Start Value": "[195.23333333300002]",
+        "Stop Value": "[201.433333333]",
+        "Name": "Anger-66",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-66-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[85.3333333333]",
+        "Start Value": "[82.23333333330001]",
+        "Stop Value": "[88.4333333333]",
+        "Name": "Anger-17",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-17-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[217.666666667]",
+        "Start Value": "[214.566666667]",
+        "Stop Value": "[220.76666666699998]",
+        "Name": "Anger-28",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-28-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[137.0]",
+        "Start Value": "[133.9]",
+        "Stop Value": "[140.1]",
+        "Name": "Anger-23",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-23-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.010741692]",
+        "Time Value/Thumbnail": "[119.0]",
+        "Start Value": "[115.9]",
+        "Stop Value": "[122.1]",
+        "Name": "Anger-0",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-0-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[140.0]",
+        "Start Value": "[136.9]",
+        "Stop Value": "[143.1]",
+        "Name": "Anger-33",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-33-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[43.0]",
+        "Start Value": "[39.9]",
+        "Stop Value": "[46.1]",
+        "Name": "Anger-14",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-14-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[121.0]",
+        "Start Value": "[117.9]",
+        "Stop Value": "[124.1]",
+        "Name": "Anger-28",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-28-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[112.333333333]",
+        "Start Value": "[109.233333333]",
+        "Stop Value": "[115.433333333]",
+        "Name": "Anger-17",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-17-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[112.0]",
+        "Start Value": "[108.9]",
+        "Stop Value": "[115.1]",
+        "Name": "Anger-16",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-16-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[215.0]",
+        "Start Value": "[211.9]",
+        "Stop Value": "[218.1]",
+        "Name": "Anger-25",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-25-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[305.0]",
+        "Start Value": "[301.9]",
+        "Stop Value": "[308.1]",
+        "Name": "Anger-71",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-71-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[18.0]",
+        "Start Value": "[14.9]",
+        "Stop Value": "[21.1]",
+        "Name": "Anger-3",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-3-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[104.333333333]",
+        "Start Value": "[101.233333333]",
+        "Stop Value": "[107.433333333]",
+        "Name": "Anger-24",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-24-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[323.333333333]",
+        "Start Value": "[320.23333333299996]",
+        "Stop Value": "[326.433333333]",
+        "Name": "Anger-51",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-51-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[241.666666667]",
+        "Start Value": "[238.566666667]",
+        "Stop Value": "[244.76666666699998]",
+        "Name": "Anger-43",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-43-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[105.333333333]",
+        "Start Value": "[102.233333333]",
+        "Stop Value": "[108.433333333]",
+        "Name": "Anger-23",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-23-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[214.333333333]",
+        "Start Value": "[211.23333333300002]",
+        "Stop Value": "[217.433333333]",
+        "Name": "Anger-32",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-32-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[60.0]",
+        "Start Value": "[56.9]",
+        "Stop Value": "[63.1]",
+        "Name": "Anger-14",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-14-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[229.333333333]",
+        "Start Value": "[226.23333333300002]",
+        "Stop Value": "[232.433333333]",
+        "Name": "Anger-34",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Anger-34-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[0.9998388]",
+        "Time Value/Thumbnail": "[187.666666667]",
+        "Start Value": "[184.566666667]",
+        "Stop Value": "[190.76666666699998]",
+        "Name": "Disgust-33",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-33-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[0.3171329]",
+        "Time Value/Thumbnail": "[27.6666666667]",
+        "Start Value": "[24.566666666699998]",
+        "Stop Value": "[30.7666666667]",
+        "Name": "Disgust-4",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-4-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[0.07724629]",
+        "Time Value/Thumbnail": "[40.6666666667]",
+        "Start Value": "[37.5666666667]",
+        "Stop Value": "[43.766666666700004]",
+        "Name": "Disgust-8",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-8-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[0.043456066]",
+        "Time Value/Thumbnail": "[37.3333333333]",
+        "Start Value": "[34.233333333299996]",
+        "Stop Value": "[40.4333333333]",
+        "Name": "Disgust-9",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-9-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[0.0231022]",
+        "Time Value/Thumbnail": "[123.333333333]",
+        "Start Value": "[120.233333333]",
+        "Stop Value": "[126.433333333]",
+        "Name": "Disgust-29",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-29-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[0.015090475]",
+        "Time Value/Thumbnail": "[188.333333333]",
+        "Start Value": "[185.23333333300002]",
+        "Stop Value": "[191.433333333]",
+        "Name": "Disgust-57",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-57-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[226.333333333]",
+        "Start Value": "[223.23333333300002]",
+        "Stop Value": "[229.433333333]",
+        "Name": "Disgust-32",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-32-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[0.73308295]",
+        "Time Value/Thumbnail": "[240.666666667]",
+        "Start Value": "[237.566666667]",
+        "Stop Value": "[243.76666666699998]",
+        "Name": "Disgust-36",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-36-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[0.051965144]",
+        "Time Value/Thumbnail": "[5.66666666667]",
+        "Start Value": "[2.56666666667]",
+        "Stop Value": "[8.76666666667]",
+        "Name": "Disgust-2",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-2-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[0.13067661]",
+        "Time Value/Thumbnail": "[24.0]",
+        "Start Value": "[20.9]",
+        "Stop Value": "[27.1]",
+        "Name": "Disgust-5",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-5-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.07548833]",
+        "Time Value/Thumbnail": "[88.3333333333]",
+        "Start Value": "[85.23333333330001]",
+        "Stop Value": "[91.4333333333]",
+        "Name": "Disgust-16",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-16-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.049342286]",
+        "Time Value/Thumbnail": "[260.333333333]",
+        "Start Value": "[257.23333333299996]",
+        "Stop Value": "[263.433333333]",
+        "Name": "Disgust-26",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-26-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.0025459623]",
+        "Time Value/Thumbnail": "[175.333333333]",
+        "Start Value": "[172.23333333300002]",
+        "Stop Value": "[178.433333333]",
+        "Name": "Disgust-0",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-0-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[57.0]",
+        "Start Value": "[53.9]",
+        "Stop Value": "[60.1]",
+        "Name": "Disgust-5",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-5-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.21680291]",
+        "Time Value/Thumbnail": "[12.3333333333]",
+        "Start Value": "[9.233333333300001]",
+        "Stop Value": "[15.4333333333]",
+        "Name": "Disgust-2",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-2-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.1671803]",
+        "Time Value/Thumbnail": "[11.3333333333]",
+        "Start Value": "[8.233333333300001]",
+        "Stop Value": "[14.4333333333]",
+        "Name": "Disgust-1",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-1-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.87693644]",
+        "Time Value/Thumbnail": "[246.333333333]",
+        "Start Value": "[243.23333333300002]",
+        "Stop Value": "[249.433333333]",
+        "Name": "Disgust-8",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-8-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[0.5869218]",
+        "Time Value/Thumbnail": "[223.333333333]",
+        "Start Value": "[220.23333333300002]",
+        "Stop Value": "[226.433333333]",
+        "Name": "Disgust-7",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-7-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[0.07224765]",
+        "Time Value/Thumbnail": "[220.333333333]",
+        "Start Value": "[217.23333333300002]",
+        "Stop Value": "[223.433333333]",
+        "Name": "Disgust-4",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-4-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[0.06458282]",
+        "Time Value/Thumbnail": "[254.0]",
+        "Start Value": "[250.9]",
+        "Stop Value": "[257.1]",
+        "Name": "Disgust-68",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-68-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[0.026122682]",
+        "Time Value/Thumbnail": "[306.666666667]",
+        "Start Value": "[303.566666667]",
+        "Stop Value": "[309.76666666700004]",
+        "Name": "Disgust-83",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-83-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[0.024169981]",
+        "Time Value/Thumbnail": "[30.3333333333]",
+        "Start Value": "[27.2333333333]",
+        "Stop Value": "[33.4333333333]",
+        "Name": "Disgust-8",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-8-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[0.925093]",
+        "Time Value/Thumbnail": "[7.33333333333]",
+        "Start Value": "[4.23333333333]",
+        "Stop Value": "[10.43333333333]",
+        "Name": "Disgust-0",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-0-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[0.71617305]",
+        "Time Value/Thumbnail": "[68.0]",
+        "Start Value": "[64.9]",
+        "Stop Value": "[71.1]",
+        "Name": "Disgust-6",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-6-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[0.59038854]",
+        "Time Value/Thumbnail": "[203.0]",
+        "Start Value": "[199.9]",
+        "Stop Value": "[206.1]",
+        "Name": "Disgust-14",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-14-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[0.9795512]",
+        "Time Value/Thumbnail": "[181.333333333]",
+        "Start Value": "[178.23333333300002]",
+        "Stop Value": "[184.433333333]",
+        "Name": "Disgust-14",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-14-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[0.41129053]",
+        "Time Value/Thumbnail": "[181.0]",
+        "Start Value": "[177.9]",
+        "Stop Value": "[184.1]",
+        "Name": "Disgust-13",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-13-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[0.02893963]",
+        "Time Value/Thumbnail": "[288.333333333]",
+        "Start Value": "[285.23333333299996]",
+        "Stop Value": "[291.433333333]",
+        "Name": "Disgust-17",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Disgust-17-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[181.0]",
+        "Start Value": "[177.9]",
+        "Stop Value": "[184.1]",
+        "Name": "Fear-61",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-61-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[48.0]",
+        "Start Value": "[44.9]",
+        "Stop Value": "[51.1]",
+        "Name": "Fear-15",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-15-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[0.99998975]",
+        "Time Value/Thumbnail": "[163.0]",
+        "Start Value": "[159.9]",
+        "Stop Value": "[166.1]",
+        "Name": "Fear-55",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-55-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[167.333333333]",
+        "Start Value": "[164.23333333300002]",
+        "Stop Value": "[170.433333333]",
+        "Name": "Fear-51",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-51-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[0.9999999]",
+        "Time Value/Thumbnail": "[112.0]",
+        "Start Value": "[108.9]",
+        "Stop Value": "[115.1]",
+        "Name": "Fear-29",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-29-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[0.99999535]",
+        "Time Value/Thumbnail": "[184.333333333]",
+        "Start Value": "[181.23333333300002]",
+        "Stop Value": "[187.433333333]",
+        "Name": "Fear-58",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-58-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[249.666666667]",
+        "Start Value": "[246.566666667]",
+        "Stop Value": "[252.76666666699998]",
+        "Name": "Fear-68",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-68-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[0.9999933]",
+        "Time Value/Thumbnail": "[102.0]",
+        "Start Value": "[98.9]",
+        "Stop Value": "[105.1]",
+        "Name": "Fear-32",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-32-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[0.9999343]",
+        "Time Value/Thumbnail": "[140.666666667]",
+        "Start Value": "[137.566666667]",
+        "Stop Value": "[143.76666666699998]",
+        "Name": "Fear-41",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-41-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[61.6666666667]",
+        "Start Value": "[58.5666666667]",
+        "Stop Value": "[64.7666666667]",
+        "Name": "Fear-20",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-20-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.99992025]",
+        "Time Value/Thumbnail": "[60.6666666667]",
+        "Start Value": "[57.5666666667]",
+        "Stop Value": "[63.766666666700004]",
+        "Name": "Fear-19",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-19-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.99669987]",
+        "Time Value/Thumbnail": "[219.666666667]",
+        "Start Value": "[216.566666667]",
+        "Stop Value": "[222.76666666699998]",
+        "Name": "Fear-33",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-33-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[156.333333333]",
+        "Start Value": "[153.23333333300002]",
+        "Stop Value": "[159.433333333]",
+        "Name": "Fear-1",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-1-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[0.9997688]",
+        "Time Value/Thumbnail": "[157.333333333]",
+        "Start Value": "[154.23333333300002]",
+        "Stop Value": "[160.433333333]",
+        "Name": "Fear-2",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-2-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[0.8989776]",
+        "Time Value/Thumbnail": "[119.0]",
+        "Start Value": "[115.9]",
+        "Stop Value": "[122.1]",
+        "Name": "Fear-0",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-0-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[0.9986866]",
+        "Time Value/Thumbnail": "[127.0]",
+        "Start Value": "[123.9]",
+        "Stop Value": "[130.1]",
+        "Name": "Fear-10",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-10-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.97532743]",
+        "Time Value/Thumbnail": "[12.0]",
+        "Start Value": "[8.9]",
+        "Stop Value": "[15.1]",
+        "Name": "Fear-1",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-1-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.96248287]",
+        "Time Value/Thumbnail": "[11.6666666667]",
+        "Start Value": "[8.5666666667]",
+        "Stop Value": "[14.766666666699999]",
+        "Name": "Fear-0",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-0-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[144.0]",
+        "Start Value": "[140.9]",
+        "Stop Value": "[147.1]",
+        "Name": "Fear-13",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-13-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[0.99999964]",
+        "Time Value/Thumbnail": "[228.0]",
+        "Start Value": "[224.9]",
+        "Stop Value": "[231.1]",
+        "Name": "Fear-27",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-27-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[0.9950487]",
+        "Time Value/Thumbnail": "[144.333333333]",
+        "Start Value": "[141.23333333300002]",
+        "Stop Value": "[147.433333333]",
+        "Name": "Fear-14",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-14-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[315.333333333]",
+        "Start Value": "[312.23333333299996]",
+        "Stop Value": "[318.433333333]",
+        "Name": "Fear-83",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-83-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[0.99999976]",
+        "Time Value/Thumbnail": "[232.333333333]",
+        "Start Value": "[229.23333333300002]",
+        "Stop Value": "[235.433333333]",
+        "Name": "Fear-65",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-65-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[0.99999535]",
+        "Time Value/Thumbnail": "[25.6666666667]",
+        "Start Value": "[22.566666666699998]",
+        "Stop Value": "[28.7666666667]",
+        "Name": "Fear-5",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-5-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[308.666666667]",
+        "Start Value": "[305.566666667]",
+        "Stop Value": "[311.76666666700004]",
+        "Name": "Fear-31",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-31-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[60.6666666667]",
+        "Start Value": "[57.5666666667]",
+        "Stop Value": "[63.766666666700004]",
+        "Name": "Fear-9",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-9-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[0.9999963]",
+        "Time Value/Thumbnail": "[177.666666667]",
+        "Start Value": "[174.566666667]",
+        "Stop Value": "[180.76666666699998]",
+        "Name": "Fear-21",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-21-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[288.666666667]",
+        "Start Value": "[285.566666667]",
+        "Stop Value": "[291.76666666700004]",
+        "Name": "Fear-67",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-67-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[25.3333333333]",
+        "Start Value": "[22.2333333333]",
+        "Stop Value": "[28.433333333300002]",
+        "Name": "Fear-10",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-10-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[27.0]",
+        "Start Value": "[23.9]",
+        "Stop Value": "[30.1]",
+        "Name": "Fear-12",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-12-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[275.0]",
+        "Start Value": "[271.9]",
+        "Stop Value": "[278.1]",
+        "Name": "Fear-0",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-0-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[277.666666667]",
+        "Start Value": "[274.566666667]",
+        "Stop Value": "[280.76666666700004]",
+        "Name": "Fear-1",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Fear-1-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[2.33333333333]",
+        "Start Value": "[-0.7666666666699999]",
+        "Stop Value": "[5.43333333333]",
+        "Name": "Happy-0",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-0-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[199.333333333]",
+        "Start Value": "[196.23333333300002]",
+        "Stop Value": "[202.433333333]",
+        "Name": "Happy-44",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-44-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[84.0]",
+        "Start Value": "[80.9]",
+        "Stop Value": "[87.1]",
+        "Name": "Happy-19",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-19-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[7.0]",
+        "Start Value": "[3.9]",
+        "Stop Value": "[10.1]",
+        "Name": "Happy-0",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-0-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[104.0]",
+        "Start Value": "[100.9]",
+        "Stop Value": "[107.1]",
+        "Name": "Happy-20",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-20-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[128.0]",
+        "Start Value": "[124.9]",
+        "Stop Value": "[131.1]",
+        "Name": "Happy-29",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-29-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[122.0]",
+        "Start Value": "[118.9]",
+        "Stop Value": "[125.1]",
+        "Name": "Happy-31",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-31-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[125.666666667]",
+        "Start Value": "[122.566666667]",
+        "Stop Value": "[128.766666667]",
+        "Name": "Happy-34",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-34-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[63.0]",
+        "Start Value": "[59.9]",
+        "Stop Value": "[66.1]",
+        "Name": "Happy-15",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-15-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[85.6666666667]",
+        "Start Value": "[82.5666666667]",
+        "Stop Value": "[88.76666666669999]",
+        "Name": "Happy-17",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-17-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[22.6666666667]",
+        "Start Value": "[19.566666666699998]",
+        "Stop Value": "[25.7666666667]",
+        "Name": "Happy-8",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-8-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[125.333333333]",
+        "Start Value": "[122.233333333]",
+        "Stop Value": "[128.433333333]",
+        "Name": "Happy-26",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-26-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.29967734]",
+        "Time Value/Thumbnail": "[155.666666667]",
+        "Start Value": "[152.566666667]",
+        "Stop Value": "[158.76666666699998]",
+        "Name": "Happy-0",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-0-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[39.6666666667]",
+        "Start Value": "[36.5666666667]",
+        "Stop Value": "[42.766666666700004]",
+        "Name": "Happy-3",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-3-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.9999994]",
+        "Time Value/Thumbnail": "[20.6666666667]",
+        "Start Value": "[17.566666666699998]",
+        "Stop Value": "[23.7666666667]",
+        "Name": "Happy-1",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-1-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.9872176]",
+        "Time Value/Thumbnail": "[87.0]",
+        "Start Value": "[83.9]",
+        "Stop Value": "[90.1]",
+        "Name": "Happy-8",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-8-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[39.3333333333]",
+        "Start Value": "[36.233333333299996]",
+        "Stop Value": "[42.4333333333]",
+        "Name": "Happy-6",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-6-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[178.333333333]",
+        "Start Value": "[175.23333333300002]",
+        "Stop Value": "[181.433333333]",
+        "Name": "Happy-11",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-11-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[0.9990895]",
+        "Time Value/Thumbnail": "[28.0]",
+        "Start Value": "[24.9]",
+        "Stop Value": "[31.1]",
+        "Name": "Happy-5",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-5-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[293.666666667]",
+        "Start Value": "[290.566666667]",
+        "Stop Value": "[296.76666666700004]",
+        "Name": "Happy-98",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-98-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[308.666666667]",
+        "Start Value": "[305.566666667]",
+        "Stop Value": "[311.76666666700004]",
+        "Name": "Happy-108",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-108-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[303.333333333]",
+        "Start Value": "[300.23333333299996]",
+        "Stop Value": "[306.433333333]",
+        "Name": "Happy-106",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-106-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[319.0]",
+        "Start Value": "[315.9]",
+        "Stop Value": "[322.1]",
+        "Name": "Happy-21",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-21-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[174.0]",
+        "Start Value": "[170.9]",
+        "Stop Value": "[177.1]",
+        "Name": "Happy-14",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-14-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[15.0]",
+        "Start Value": "[11.9]",
+        "Stop Value": "[18.1]",
+        "Name": "Happy-2",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-2-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[83.6666666667]",
+        "Start Value": "[80.5666666667]",
+        "Stop Value": "[86.76666666669999]",
+        "Name": "Happy-13",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-13-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[238.666666667]",
+        "Start Value": "[235.566666667]",
+        "Stop Value": "[241.76666666699998]",
+        "Name": "Happy-23",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-23-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[7.66666666667]",
+        "Start Value": "[4.566666666670001]",
+        "Stop Value": "[10.76666666667]",
+        "Name": "Happy-3",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-3-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[242.666666667]",
+        "Start Value": "[239.566666667]",
+        "Stop Value": "[245.76666666699998]",
+        "Name": "Happy-0",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-0-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[244.666666667]",
+        "Start Value": "[241.566666667]",
+        "Stop Value": "[247.76666666699998]",
+        "Name": "Happy-1",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-1-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[248.0]",
+        "Start Value": "[244.9]",
+        "Stop Value": "[251.1]",
+        "Name": "Happy-2",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Happy-2-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[164.666666667]",
+        "Start Value": "[161.566666667]",
+        "Stop Value": "[167.76666666699998]",
+        "Name": "Sad-29",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-29-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[0.99999464]",
+        "Time Value/Thumbnail": "[34.3333333333]",
+        "Start Value": "[31.233333333299996]",
+        "Stop Value": "[37.4333333333]",
+        "Name": "Sad-2",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-2-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[0.98968434]",
+        "Time Value/Thumbnail": "[2.0]",
+        "Start Value": "[-1.1]",
+        "Stop Value": "[5.1]",
+        "Name": "Sad-1",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-1-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[0.9999995]",
+        "Time Value/Thumbnail": "[241.333333333]",
+        "Start Value": "[238.23333333300002]",
+        "Stop Value": "[244.433333333]",
+        "Name": "Sad-56",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-56-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[0.99975103]",
+        "Time Value/Thumbnail": "[120.666666667]",
+        "Start Value": "[117.566666667]",
+        "Stop Value": "[123.766666667]",
+        "Name": "Sad-24",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-24-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[0.99922407]",
+        "Time Value/Thumbnail": "[163.0]",
+        "Start Value": "[159.9]",
+        "Stop Value": "[166.1]",
+        "Name": "Sad-37",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-37-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[0.99999666]",
+        "Time Value/Thumbnail": "[205.0]",
+        "Start Value": "[201.9]",
+        "Stop Value": "[208.1]",
+        "Name": "Sad-33",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-33-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[0.99948514]",
+        "Time Value/Thumbnail": "[200.333333333]",
+        "Start Value": "[197.23333333300002]",
+        "Stop Value": "[203.433333333]",
+        "Name": "Sad-32",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-32-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[0.99740654]",
+        "Time Value/Thumbnail": "[246.0]",
+        "Start Value": "[242.9]",
+        "Stop Value": "[249.1]",
+        "Name": "Sad-42",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-42-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[10.6666666667]",
+        "Start Value": "[7.5666666667]",
+        "Stop Value": "[13.766666666699999]",
+        "Name": "Sad-0",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-0-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.9994654]",
+        "Time Value/Thumbnail": "[11.0]",
+        "Start Value": "[7.9]",
+        "Stop Value": "[14.1]",
+        "Name": "Sad-1",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-1-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.9882883]",
+        "Time Value/Thumbnail": "[40.0]",
+        "Start Value": "[36.9]",
+        "Stop Value": "[43.1]",
+        "Name": "Sad-6",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-6-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.07015157]",
+        "Time Value/Thumbnail": "[175.333333333]",
+        "Start Value": "[172.23333333300002]",
+        "Stop Value": "[178.433333333]",
+        "Name": "Sad-0",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-0-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[0.008285386]",
+        "Time Value/Thumbnail": "[189.666666667]",
+        "Start Value": "[186.566666667]",
+        "Stop Value": "[192.76666666699998]",
+        "Name": "Sad-1",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-1-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[0.3269588]",
+        "Time Value/Thumbnail": "[40.3333333333]",
+        "Start Value": "[37.233333333299996]",
+        "Stop Value": "[43.4333333333]",
+        "Name": "Sad-2",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-2-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.21055119]",
+        "Time Value/Thumbnail": "[138.333333333]",
+        "Start Value": "[135.23333333300002]",
+        "Stop Value": "[141.433333333]",
+        "Name": "Sad-8",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-8-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.1980191]",
+        "Time Value/Thumbnail": "[119.666666667]",
+        "Start Value": "[116.566666667]",
+        "Stop Value": "[122.766666667]",
+        "Name": "Sad-5",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-5-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[0.9999994]",
+        "Time Value/Thumbnail": "[27.6666666667]",
+        "Start Value": "[24.566666666699998]",
+        "Stop Value": "[30.7666666667]",
+        "Name": "Sad-4",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-4-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[0.99998367]",
+        "Time Value/Thumbnail": "[5.33333333333]",
+        "Start Value": "[2.2333333333299996]",
+        "Stop Value": "[8.43333333333]",
+        "Name": "Sad-0",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-0-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[0.99976665]",
+        "Time Value/Thumbnail": "[15.6666666667]",
+        "Start Value": "[12.5666666667]",
+        "Stop Value": "[18.7666666667]",
+        "Name": "Sad-3",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-3-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[0.9999999]",
+        "Time Value/Thumbnail": "[64.0]",
+        "Start Value": "[60.9]",
+        "Stop Value": "[67.1]",
+        "Name": "Sad-2",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-2-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[0.9999994]",
+        "Time Value/Thumbnail": "[198.333333333]",
+        "Start Value": "[195.23333333300002]",
+        "Stop Value": "[201.433333333]",
+        "Name": "Sad-18",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-18-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[0.9999827]",
+        "Time Value/Thumbnail": "[133.666666667]",
+        "Start Value": "[130.566666667]",
+        "Stop Value": "[136.76666666699998]",
+        "Name": "Sad-12",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-12-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[0.9999999]",
+        "Time Value/Thumbnail": "[17.3333333333]",
+        "Start Value": "[14.233333333300001]",
+        "Stop Value": "[20.433333333300002]",
+        "Name": "Sad-1",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-1-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[0.99999523]",
+        "Time Value/Thumbnail": "[26.3333333333]",
+        "Start Value": "[23.2333333333]",
+        "Stop Value": "[29.433333333300002]",
+        "Name": "Sad-5",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-5-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[0.9976623]",
+        "Time Value/Thumbnail": "[1.66666666667]",
+        "Start Value": "[-1.43333333333]",
+        "Stop Value": "[4.76666666667]",
+        "Name": "Sad-0",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-0-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[0.8839685]",
+        "Time Value/Thumbnail": "[23.0]",
+        "Start Value": "[19.9]",
+        "Stop Value": "[26.1]",
+        "Name": "Sad-6",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-6-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[0.8373817]",
+        "Time Value/Thumbnail": "[100.666666667]",
+        "Start Value": "[97.566666667]",
+        "Stop Value": "[103.766666667]",
+        "Name": "Sad-12",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-12-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[0.8289187]",
+        "Time Value/Thumbnail": "[118.666666667]",
+        "Start Value": "[115.566666667]",
+        "Stop Value": "[121.766666667]",
+        "Name": "Sad-15",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-15-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[0.99999976]",
+        "Time Value/Thumbnail": "[267.666666667]",
+        "Start Value": "[264.566666667]",
+        "Stop Value": "[270.76666666700004]",
+        "Name": "Sad-1",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-1-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[0.9999651]",
+        "Time Value/Thumbnail": "[272.0]",
+        "Start Value": "[268.9]",
+        "Stop Value": "[275.1]",
+        "Name": "Sad-4",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-4-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[0.99900836]",
+        "Time Value/Thumbnail": "[264.333333333]",
+        "Start Value": "[261.23333333299996]",
+        "Stop Value": "[267.433333333]",
+        "Name": "Sad-0",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Sad-0-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[200.333333333]",
+        "Start Value": "[197.23333333300002]",
+        "Stop Value": "[203.433333333]",
+        "Name": "Surprise-84",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-84-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[156.666666667]",
+        "Start Value": "[153.566666667]",
+        "Stop Value": "[159.76666666699998]",
+        "Name": "Surprise-69",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-69-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[5.0]",
+        "Start Value": "[1.9]",
+        "Stop Value": "[8.1]",
+        "Name": "Surprise-1",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-1-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[199.0]",
+        "Start Value": "[195.9]",
+        "Stop Value": "[202.1]",
+        "Name": "Surprise-97",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-97-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[53.6666666667]",
+        "Start Value": "[50.5666666667]",
+        "Stop Value": "[56.766666666700004]",
+        "Name": "Surprise-32",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-32-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[96.6666666667]",
+        "Start Value": "[93.5666666667]",
+        "Stop Value": "[99.76666666669999]",
+        "Name": "Surprise-47",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-47-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[3.0]",
+        "Start Value": "[-0.10000000000000009]",
+        "Stop Value": "[6.1]",
+        "Name": "Surprise-0",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-0-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[104.666666667]",
+        "Start Value": "[101.566666667]",
+        "Stop Value": "[107.766666667]",
+        "Name": "Surprise-54",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-54-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[190.333333333]",
+        "Start Value": "[187.23333333300002]",
+        "Stop Value": "[193.433333333]",
+        "Name": "Surprise-102",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-102-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[118.0]",
+        "Start Value": "[114.9]",
+        "Stop Value": "[121.1]",
+        "Name": "Surprise-29",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-29-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[61.0]",
+        "Start Value": "[57.9]",
+        "Stop Value": "[64.1]",
+        "Name": "Surprise-24",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-24-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[1.66666666667]",
+        "Start Value": "[-1.43333333333]",
+        "Stop Value": "[4.76666666667]",
+        "Name": "Surprise-1",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-1-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[158.666666667]",
+        "Start Value": "[155.566666667]",
+        "Stop Value": "[161.76666666699998]",
+        "Name": "Surprise-1",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-1-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[166.666666667]",
+        "Start Value": "[163.566666667]",
+        "Stop Value": "[169.76666666699998]",
+        "Name": "Surprise-2",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-2-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[173.333333333]",
+        "Start Value": "[170.23333333300002]",
+        "Stop Value": "[176.433333333]",
+        "Name": "Surprise-3",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-3-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[91.6666666667]",
+        "Start Value": "[88.5666666667]",
+        "Stop Value": "[94.76666666669999]",
+        "Name": "Surprise-20",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-20-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[60.0]",
+        "Start Value": "[56.9]",
+        "Stop Value": "[63.1]",
+        "Name": "Surprise-18",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-18-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[17.6666666667]",
+        "Start Value": "[14.5666666667]",
+        "Stop Value": "[20.7666666667]",
+        "Name": "Surprise-2",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-2-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[248.333333333]",
+        "Start Value": "[245.23333333300002]",
+        "Stop Value": "[251.433333333]",
+        "Name": "Surprise-31",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-31-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[74.6666666667]",
+        "Start Value": "[71.5666666667]",
+        "Stop Value": "[77.76666666669999]",
+        "Name": "Surprise-13",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-13-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[220.0]",
+        "Start Value": "[216.9]",
+        "Stop Value": "[223.1]",
+        "Name": "Surprise-27",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-27-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[143.666666667]",
+        "Start Value": "[140.566666667]",
+        "Stop Value": "[146.76666666699998]",
+        "Name": "Surprise-91",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-91-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[99.0]",
+        "Start Value": "[95.9]",
+        "Stop Value": "[102.1]",
+        "Name": "Surprise-59",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-59-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[122.0]",
+        "Start Value": "[118.9]",
+        "Stop Value": "[125.1]",
+        "Name": "Surprise-74",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-74-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[0.333333333333]",
+        "Start Value": "[-2.766666666667]",
+        "Stop Value": "[3.433333333333]",
+        "Name": "Surprise-0",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-0-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[58.3333333333]",
+        "Start Value": "[55.233333333299996]",
+        "Stop Value": "[61.4333333333]",
+        "Name": "Surprise-17",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-17-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[317.666666667]",
+        "Start Value": "[314.566666667]",
+        "Stop Value": "[320.76666666700004]",
+        "Name": "Surprise-49",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-49-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[3.33333333333]",
+        "Start Value": "[0.23333333333000006]",
+        "Stop Value": "[6.43333333333]",
+        "Name": "Surprise-0",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-0-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[70.6666666667]",
+        "Start Value": "[67.5666666667]",
+        "Stop Value": "[73.76666666669999]",
+        "Name": "Surprise-28",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-28-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[81.3333333333]",
+        "Start Value": "[78.23333333330001]",
+        "Stop Value": "[84.4333333333]",
+        "Name": "Surprise-33",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-33-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[247.666666667]",
+        "Start Value": "[244.566666667]",
+        "Stop Value": "[250.76666666699998]",
+        "Name": "Surprise-2",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-2-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[0.9996983]",
+        "Time Value/Thumbnail": "[239.333333333]",
+        "Start Value": "[236.23333333300002]",
+        "Stop Value": "[242.433333333]",
+        "Name": "Surprise-0",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-0-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[0.88154274]",
+        "Time Value/Thumbnail": "[243.0]",
+        "Start Value": "[239.9]",
+        "Stop Value": "[246.1]",
+        "Name": "Surprise-1",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Surprise-1-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[166.0]",
+        "Start Value": "[162.9]",
+        "Stop Value": "[169.1]",
+        "Name": "Neutral-57",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-57-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[136.666666667]",
+        "Start Value": "[133.566666667]",
+        "Stop Value": "[139.76666666699998]",
+        "Name": "Neutral-44",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-44-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[151.333333333]",
+        "Start Value": "[148.23333333300002]",
+        "Stop Value": "[154.433333333]",
+        "Name": "Neutral-49",
+        "People ID": "0",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-49-FaceID-0.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[4.0]",
+        "Start Value": "[0.8999999999999999]",
+        "Stop Value": "[7.1]",
+        "Name": "Neutral-0",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-0-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[93.6666666667]",
+        "Start Value": "[90.5666666667]",
+        "Stop Value": "[96.76666666669999]",
+        "Name": "Neutral-36",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-36-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[89.6666666667]",
+        "Start Value": "[86.5666666667]",
+        "Stop Value": "[92.76666666669999]",
+        "Name": "Neutral-33",
+        "People ID": "2",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-33-FaceID-2.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[189.333333333]",
+        "Start Value": "[186.23333333300002]",
+        "Stop Value": "[192.433333333]",
+        "Name": "Neutral-70",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-70-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[51.3333333333]",
+        "Start Value": "[48.233333333299996]",
+        "Stop Value": "[54.4333333333]",
+        "Name": "Neutral-25",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-25-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[216.666666667]",
+        "Start Value": "[213.566666667]",
+        "Stop Value": "[219.76666666699998]",
+        "Name": "Neutral-81",
+        "People ID": "3",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-81-FaceID-3.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[108.666666667]",
+        "Start Value": "[105.566666667]",
+        "Stop Value": "[111.766666667]",
+        "Name": "Neutral-26",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-26-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[46.6666666667]",
+        "Start Value": "[43.5666666667]",
+        "Stop Value": "[49.766666666700004]",
+        "Name": "Neutral-16",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-16-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[304.333333333]",
+        "Start Value": "[301.23333333299996]",
+        "Stop Value": "[307.433333333]",
+        "Name": "Neutral-51",
+        "People ID": "4",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-51-FaceID-4.mp4"
+    },
+    {
+        "Emotion": "[0.99995065]",
+        "Time Value/Thumbnail": "[208.0]",
+        "Start Value": "[204.9]",
+        "Stop Value": "[211.1]",
+        "Name": "Neutral-1",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-1-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[0.99669814]",
+        "Time Value/Thumbnail": "[208.666666667]",
+        "Start Value": "[205.566666667]",
+        "Stop Value": "[211.76666666699998]",
+        "Name": "Neutral-2",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-2-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[0.4618629]",
+        "Time Value/Thumbnail": "[155.666666667]",
+        "Start Value": "[152.566666667]",
+        "Stop Value": "[158.76666666699998]",
+        "Name": "Neutral-0",
+        "People ID": "5",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-0-FaceID-5.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[8.0]",
+        "Start Value": "[4.9]",
+        "Stop Value": "[11.1]",
+        "Name": "Neutral-0",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-0-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[23.6666666667]",
+        "Start Value": "[20.566666666699998]",
+        "Stop Value": "[26.7666666667]",
+        "Name": "Neutral-4",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-4-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[14.0]",
+        "Start Value": "[10.9]",
+        "Stop Value": "[17.1]",
+        "Name": "Neutral-1",
+        "People ID": "6",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-1-FaceID-6.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[228.666666667]",
+        "Start Value": "[225.566666667]",
+        "Stop Value": "[231.76666666699998]",
+        "Name": "Neutral-26",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-26-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[222.333333333]",
+        "Start Value": "[219.23333333300002]",
+        "Stop Value": "[225.433333333]",
+        "Name": "Neutral-22",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-22-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[193.0]",
+        "Start Value": "[189.9]",
+        "Stop Value": "[196.1]",
+        "Name": "Neutral-16",
+        "People ID": "7",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-16-FaceID-7.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[325.666666667]",
+        "Start Value": "[322.566666667]",
+        "Stop Value": "[328.76666666700004]",
+        "Name": "Neutral-121",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-121-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[93.6666666667]",
+        "Start Value": "[90.5666666667]",
+        "Stop Value": "[96.76666666669999]",
+        "Name": "Neutral-25",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-25-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[73.3333333333]",
+        "Start Value": "[70.23333333330001]",
+        "Stop Value": "[76.4333333333]",
+        "Name": "Neutral-19",
+        "People ID": "8",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-19-FaceID-8.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[68.3333333333]",
+        "Start Value": "[65.23333333330001]",
+        "Stop Value": "[71.4333333333]",
+        "Name": "Neutral-4",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-4-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[70.0]",
+        "Start Value": "[66.9]",
+        "Stop Value": "[73.1]",
+        "Name": "Neutral-5",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-5-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[78.0]",
+        "Start Value": "[74.9]",
+        "Stop Value": "[81.1]",
+        "Name": "Neutral-9",
+        "People ID": "9",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-9-FaceID-9.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[150.0]",
+        "Start Value": "[146.9]",
+        "Stop Value": "[153.1]",
+        "Name": "Neutral-40",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-40-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[98.0]",
+        "Start Value": "[94.9]",
+        "Stop Value": "[101.1]",
+        "Name": "Neutral-25",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-25-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[89.3333333333]",
+        "Start Value": "[86.23333333330001]",
+        "Stop Value": "[92.4333333333]",
+        "Name": "Neutral-23",
+        "People ID": "10",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-23-FaceID-10.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[247.333333333]",
+        "Start Value": "[244.23333333300002]",
+        "Stop Value": "[250.433333333]",
+        "Name": "Neutral-1",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-1-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[266.666666667]",
+        "Start Value": "[263.566666667]",
+        "Stop Value": "[269.76666666700004]",
+        "Name": "Neutral-3",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-3-FaceID-11.mp4"
+    },
+    {
+        "Emotion": "[1.0]",
+        "Time Value/Thumbnail": "[268.0]",
+        "Start Value": "[264.9]",
+        "Stop Value": "[271.1]",
+        "Name": "Neutral-4",
+        "People ID": "11",
+        "File Path Name": "D:\\Github Repos\\wpi-cs-repositories\\acorn\\data\\clips\\Neutral-4-FaceID-11.mp4"
+    }
+]

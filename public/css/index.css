@@ -1,59 +1,61 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-
-html, body, #app {
-  height: 100%;
+html,
+body,
+#app {
+    height: 100%;
 }
 
 .menu-list a.is-active {
-  background-color: #00d1b2;
-  color: #fff;
+    background-color: #00d1b2;
+    color: #fff;
 }
 
-.navbar-item.is-tab.is-active, .navbar-item.is-tab:hover {
-  color: #00d1b2;
-  border-bottom-color: #00d1b2;
+.navbar-item.is-tab.is-active,
+.navbar-item.is-tab:hover {
+    color: #00d1b2;
+    border-bottom-color: #00d1b2;
 }
 
 .faceImage {
-  border-style: solid;
-  border-width: 3px;
-  border-color: hsl(141, 53%, 53%);
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsl(141, 53%, 53%);
 }
 
 .hidden {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 a {
-  color: #00d1b2;
+    color: #00d1b2;
 }
 
 #thumbnail1 {
-  display: block;
-  max-width: 230px;
-  max-height: 95px;
-  width: auto;
-  height: auto;
+    display: block;
+    max-width: 230px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
 }
 
 #app {
-  min-height: 100%;
-  /*
+    min-height: 100%;
+    /*
 //display: flex;
 //flex-direction: column;*/
 }
 
 .main-content {
-  /*//flex: 1;*/
+    /*//flex: 1;*/
 }
 
 .footer {
-  margin-top: -12px;
+    margin-top: -12px;
 }
 
 @media screen and (max-width: 768px) {
-  #menu-toggle:checked+.nav-menu {
-    display: block;
-  }
+    #menu-toggle:checked+.nav-menu {
+        display: block;
+    }
 }
