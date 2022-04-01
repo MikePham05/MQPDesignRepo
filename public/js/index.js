@@ -1,8 +1,7 @@
 $(document).ready(function() {
-
     // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function() {
-
+        
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         $(".navbar-burger").toggleClass("is-active");
         $(".navbar-menu").toggleClass("is-active");
@@ -13,7 +12,6 @@ $(document).ready(function() {
     $(".card-header-icon").click(function() {
 
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-
     });
 });
 
@@ -69,6 +67,7 @@ window.addEventListener('load',
                     for (var i = 0; i < videoArray.length; i++) {
                         var tempArray = videoArray[i].replace(".mp4", "").split("-");
                         var tempClip = new Clip();
+                        console.log(videoArray[i])
                         tempClip.name = tempArray[0] + tempArray[1];
                         tempClip.emotion = tempArray[0];
                         tempClip.emotionValue = tempArray[1];
@@ -95,9 +94,6 @@ window.addEventListener('load',
                             examplePeople.push(tempPerson);
                         }
                         tempClip.people.push(tempPerson);
-
-
-
 
                         exampleClips.push(tempClip);
                     }
@@ -203,7 +199,7 @@ function fillClipsSection() {
     //fills clip section
     console.log("I am about to fill clips");
 
-    for (var i = 0; i < 217; i + 7) {
+    for (var i = 0; i < 3; i + 1) {
 
         var clipBlockName = "clipBlock" + "-" + i.toString()
 
@@ -229,13 +225,9 @@ function fillClipsSection() {
                 console.log("i went in the other one")
                 var cln = document.getElementById("clipEntry" + "-" + (j - 1).toString()).cloneNode(true)
 
-
                 //document.getElementById("clipEntry" + "-" + (j - 1).toString()).setAttribute('style', 'overflow: hidden; margin: 50px;')
 
                 document.getElementById("clipEntry" + "-" + (j - 1).toString()).id = "clipEntry" + "-" + (j + 1).toString()
-
-
-
 
                 document.getElementById("thumbnail" + "-" + (j - 1).toString()).replaceWith(exampleClips[j].thumbnail);
                 document.getElementById("thumbnail-0").setAttribute('onclick', "displayMe(this)");
@@ -305,8 +297,6 @@ function fillClipsSectionCond(condition) {
                 document.getElementById("clipEntry" + "-" + (j - 1).toString()).id = "clipEntry" + "-" + (j + 1).toString()
 
 
-
-
                 document.getElementById("thumbnail" + "-" + (j - 1).toString()).replaceWith(exampleClips[j].thumbnail);
                 document.getElementById("thumbnail-0").setAttribute('onclick', "displayMe(this)");
                 document.getElementById("thumbnail-0").setAttribute('id', "thumbnail" + "-" + (j + 1).toString());
@@ -335,11 +325,9 @@ function fillClipsSectionCond(condition) {
         newClipBlock.id = "clipBlock" + "-" + i.toString()
         document.getElementById("data").appendChild(newClipBlock)
     }
-
-
 }
 
-function personOnClick(image) {
+function findCurrentPersonInTop3Region(image) {
     var pfp = document.getElementsByClassName("profilePic");
 
     pfp[0].src = image.src;
@@ -347,22 +335,36 @@ function personOnClick(image) {
     var currentPerson;
     var imageName = image.id.split("-");
     for (var i = 0; i < examplePeople.length; i++) {
-
         if (image.id.includes(examplePeople[i].name)) {
             currentPerson = examplePeople[i];
         }
     }
+
+    return currentPerson;
+}
+
+function setHeadLineTop3Region(image) {
+    var currentPerson = findCurrentPersonInTop3Region(image);
     var cln = document.getElementById("area").cloneNode(true);
     document.getElementsByClassName("panel-heading")[0].innerHTML = "Profile: " + currentPerson.name + " ";
-    //console.log(document.getElementById("area"));
     document.getElementsByClassName("panel-heading")[0].appendChild(cln);
+}
+
+function displayTop3ClipAccordingtoEmotion() {
+    console.log("hello");
+}
+
+
+function personOnClick(image) {
+    var currentPerson = findCurrentPersonInTop3Region(image);
+
+    // set currentPerson to all element in navbar
+    document.getElementById("happy-button-navbar").setAttribute("personName", currentPerson.name);
+    setHeadLineTop3Region(image);
 
     var link1 = document.getElementsByClassName("clipLink1");
     var link2 = document.getElementsByClassName("clipLink2");
     var link3 = document.getElementsByClassName("clipLink3");
-
-
-
 
     link1[0].innerHTML = currentPerson.topClips[0].name;
     link1[0].onclick = () => displayMeFromPClick(currentPerson.topClips[0]);
@@ -374,9 +376,12 @@ function personOnClick(image) {
     link3[0].onclick = () => displayMeFromPClick(currentPerson.topClips[2]);
 }
 
+
 function displayMeFromPClick(clip) {
     document.getElementById("video").setAttribute("src", clip.videoPath);
 }
+
+
 
 function displayMe(clip) {
     var clipNum = clip.id.split("-");
@@ -400,10 +405,7 @@ function filterClips() {
     var input = document.getElementById("input");
     var searchTerm = input.value.toUpperCase();
 
-
-
     var listItems = document.getElementById("data").children;
-
     Array.from(listItems).forEach((row, i) => {
         var rowItems = row.getElementsByClassName("media-content");
         if (rowItems.length >= 0) {
@@ -414,7 +416,6 @@ function filterClips() {
 
                     var currentElement = rowItems.item(j).querySelectorAll('[id^="clipName-"]');
                     var elementEntries = row.querySelectorAll('[id^="clipEntry-"]');
-
 
 
                     for (var k = 0; k < elementEntries.length; k++) {
@@ -430,8 +431,6 @@ function filterClips() {
                 } else {
                     var currentElement = rowItems.item(j).querySelectorAll('[id^="clipName-"]');
                     var elementEntries = row.querySelectorAll('[id^="clipEntry-"]');
-
-
 
                     for (var k = 0; k < elementEntries.length; k++) {
 

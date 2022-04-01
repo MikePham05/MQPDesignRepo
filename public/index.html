@@ -131,8 +131,8 @@
                           </span>
                     </p>
                     <p class="panel-tabs">
-                        <a class="is-active">Top 3</a>
-                        <a>Emotions</a>
+                        <a class="is-active" id="top3">Top 3</a>
+                        <a id="happy-button-navbar" onclick="displayTop3ClipAccordingtoEmotion(this)">Happy</a>
                         <a>PlaceHolder</a>
                         <a>PlaceHolder</a>
                         <a>PlaceHolder</a>
@@ -194,6 +194,7 @@
                             <!-- search field for clips-->
                             <div class="field">
                                 <div class="control is-large">
+                                    <input id="input" class="input is-primary is-large" onkeyup="filterClips()" type="text" placeholder="Search by name">
                                     <input id="input" class="input is-primary is-large" onkeyup="filterClips()" type="text" placeholder="Search by name">
                                 </div>
                             </div>
