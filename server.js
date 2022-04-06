@@ -19,6 +19,11 @@ app.get("/videoFiles", function(req, res) {
     res.json({ videos: array });
 });
 
+app.get("/thumbnails", function(req, res) {
+    var array = fs.readdirSync('./public/MQP Screenshots/');
+    res.json({ thumbnails: array });
+})
+
 
 app.get("/emotions", function(req, res) {
 
@@ -33,7 +38,6 @@ app.get("/emotions", function(req, res) {
 
     let jsonFile = fs.readFileSync("./public/emotionpeakvals.json");
     let data = JSON.parse(jsonFile);
-
     res.json(data);
 });
 
