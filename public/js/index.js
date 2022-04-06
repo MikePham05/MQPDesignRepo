@@ -242,11 +242,6 @@ function fillClipsSection() {
             }
         }
 
-        // if (i == 0) {
-        //   var example = document.getElementById("clipEntry-0")
-        //   example.parentElement.removeChild(example);
-        // }
-
         i = j
 
         var newClipBlock = document.createElement("div")
@@ -256,8 +251,6 @@ function fillClipsSection() {
         newClipBlock.id = "clipBlock" + "-" + i.toString()
         document.getElementById("data").appendChild(newClipBlock)
     }
-
-
 }
 
 function findCurrentPersonInTop3Region(image) {
@@ -299,7 +292,7 @@ function displayTop3ClipAccordingtoEmotion(currentPerson, emotion) {
     // displaying the clips
     var link = [];
     for (let i = 0; i < top3.length; i++) {
-        link.push(document.getElementsByClassName("clipLink" + i.toString()));
+        link.push(document.getElementsByClassName("clipLink" + (i + 1).toString()));
         link[i][0].innerHTML = top3[i].name;
         link[i][0].onclick = () => displayMeFromPClick(top3[i]);
     }
@@ -379,9 +372,6 @@ function filterClips() {
                             elementEntries[k].style.display = "none";
                         }
                     }
-
-
-
 
                 } else {
                     var currentElement = rowItems.item(j).querySelectorAll('[id^="clipName-"]');
