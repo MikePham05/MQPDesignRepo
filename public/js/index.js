@@ -112,8 +112,6 @@ window.addEventListener('load',
 
 
 function fillPeopleSection() {
-    //examplePeople = [new Person(), new Person(), new Person()]
-
     for (var i = 0; i < examplePeople.length; i++) {
         var result = [];
         for (var j = 0; j < exampleClips.length; j++) {
@@ -262,71 +260,6 @@ function fillClipsSection() {
 
 }
 
-
-function fillClipsSectionCond(condition) {
-    //fills clip section
-    console.log("I am about to fill clips");
-
-    for (var i = 0; i < 217; i + 7) {
-
-        var clipBlockName = "clipBlock" + "-" + i.toString()
-
-        for (var j = i; j < i + 7 && i < 217; j++) {
-            console.log("I am number" + i.toString());
-            if (j == 0) {
-                console.log("I went in the first one")
-                var cln = document.getElementById("clipEntry-0").cloneNode(true)
-
-
-                document.getElementById("clipEntry-0").id = "clipEntry" + "-" + (j + 1).toString()
-
-                document.getElementById("thumbnail-0").replaceWith(exampleClips[j].thumbnail)
-                document.getElementById("thumbnail-0").setAttribute('id', "thumbnail" + "-" + (j + 1).toString())
-                document.getElementById("clipName-0").setAttribute('id', "clipName" + "-" + (j + 1).toString())
-                document.getElementById("clipTimeStamp-0").setAttribute('id', "clipTimeStamp" + "-" + (j + 1).toString())
-
-
-                document.getElementById("clipName" + "-" + (j + 1).toString()).innerHTML = exampleClips[j].name
-
-                document.getElementById(clipBlockName).appendChild(cln)
-            } else {
-                console.log("i went in the other one")
-                var cln = document.getElementById("clipEntry" + "-" + (j - 1).toString()).cloneNode(true)
-
-
-                document.getElementById("clipEntry" + "-" + (j - 1).toString()).id = "clipEntry" + "-" + (j + 1).toString()
-
-
-                document.getElementById("thumbnail" + "-" + (j - 1).toString()).replaceWith(exampleClips[j].thumbnail);
-                document.getElementById("thumbnail-0").setAttribute('onclick', "displayMe(this)");
-                document.getElementById("thumbnail-0").setAttribute('id', "thumbnail" + "-" + (j + 1).toString());
-
-                document.getElementById("clipName" + "-" + (j - 1).toString()).setAttribute('id', "clipName" + "-" + (j + 1).toString())
-                document.getElementById("clipTimeStamp" + "-" + (j - 1).toString()).setAttribute('id', "clipTimeStamp" + "-" + (j + 1).toString())
-
-
-                document.getElementById("clipName" + "-" + (j + 1).toString()).innerHTML = exampleClips[j].name
-
-                if (exampleClips[j].name.toUpperCase().includes(condition)) {
-                    document.getElementById(clipBlockName).appendChild(cln);
-                } else {
-                    continue;
-                }
-
-            }
-        }
-
-        i = j
-
-        var newClipBlock = document.createElement("div")
-        newClipBlock.classList.add("tile")
-        newClipBlock.classList.add("is-parent")
-        newClipBlock.classList.add("is-12")
-        newClipBlock.id = "clipBlock" + "-" + i.toString()
-        document.getElementById("data").appendChild(newClipBlock)
-    }
-}
-
 function findCurrentPersonInTop3Region(image) {
     var pfp = document.getElementsByClassName("profilePic");
 
@@ -350,30 +283,52 @@ function setHeadLineTop3Region(image) {
     document.getElementsByClassName("panel-heading")[0].appendChild(cln);
 }
 
-function displayTop3ClipAccordingtoEmotion() {
-    console.log("hello");
+function displayTop3ClipAccordingtoEmotion(currentPerson, emotion) {
+    var formattedCurrentPersonName = currentPerson.name.slice(0, 6) + '-' + currentPerson.name.slice(6);
+
+    // filter top 3 that has currentPerson and emotion
+    var top3;
+    if (emotion == "Top-3") {
+        top3 = exampleClips.filter(clip => clip.videoPath.includes(formattedCurrentPersonName));
+    } else {
+        top3 = exampleClips.filter(clip => clip.name.includes(emotion) && clip.videoPath.includes(formattedCurrentPersonName));
+    }
+    top3.sort().reverse();
+    top3 = top3.slice(0, Math.min(3, top3.length));
+    
+    // displaying the clips
+    var link = [];
+    for (let i = 0; i < top3.length; i++) {
+        link.push(document.getElementsByClassName("clipLink" + i.toString()));
+        link[i][0].innerHTML = top3[i].name;
+        link[i][0].onclick = () => displayMeFromPClick(top3[i]);
+    }
 }
 
 
 function personOnClick(image) {
+    // set currentPerson to all element in navbar
     var currentPerson = findCurrentPersonInTop3Region(image);
 
-    // set currentPerson to all element in navbar
-    document.getElementById("happy-button-navbar").setAttribute("personName", currentPerson.name);
+    // Setting on click function to tabs of the top 3 region (happy, anger, fear, surprise)
+    var top3Button = document.getElementById("top-3-button");
+    top3Button.onclick = () => displayTop3ClipAccordingtoEmotion(currentPerson, "Top-3");
+    var happyButton = document.getElementById("happy-button");
+    happyButton.onclick = () => displayTop3ClipAccordingtoEmotion(currentPerson, "Happy");
+    var fearButton = document.getElementById("fear-button");
+    fearButton.onclick = () => displayTop3ClipAccordingtoEmotion(currentPerson, "Fear");
+    var angerButton = document.getElementById("anger-button");
+    angerButton.onclick = () => displayTop3ClipAccordingtoEmotion(currentPerson, "Anger");
+    var surpriseButton = document.getElementById("surprise-button");
+    surpriseButton.onclick = () => displayTop3ClipAccordingtoEmotion(currentPerson, "Surprise");
+
+
+    // Setting headline of top 3 (including name and current person profile picture)
     setHeadLineTop3Region(image);
 
-    var link1 = document.getElementsByClassName("clipLink1");
-    var link2 = document.getElementsByClassName("clipLink2");
-    var link3 = document.getElementsByClassName("clipLink3");
 
-    link1[0].innerHTML = currentPerson.topClips[0].name;
-    link1[0].onclick = () => displayMeFromPClick(currentPerson.topClips[0]);
-
-    link2[0].innerHTML = currentPerson.topClips[1].name;
-    link2[0].onclick = () => displayMeFromPClick(currentPerson.topClips[1]);
-
-    link3[0].innerHTML = currentPerson.topClips[2].name;
-    link3[0].onclick = () => displayMeFromPClick(currentPerson.topClips[2]);
+    // Displaying top 3 in general
+    // displayTop3ClipAccordingtoEmotion(currentPerson, "Top-3");
 }
 
 
