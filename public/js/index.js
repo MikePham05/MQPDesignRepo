@@ -64,30 +64,6 @@ window.addEventListener('load',
                 .then(response => response.json())
                 .then(json => {
                     emotionArray = json;
-<<<<<<< HEAD
-
-                    for (var i = 0; i < videoArray.length; i++) {
-                        var tempArray = videoArray[i].replace(".mp4", "").split("-");
-                        var tempClip = new Clip();
-                        console.log(videoArray[i])
-                        tempClip.name = tempArray[0] + tempArray[1];
-                        tempClip.emotion = tempArray[0];
-                        tempClip.emotionValue = tempArray[1];
-                        //tempClip.people.push(tempArray[2] + tempArray[3]);
-                        tempClip.videoPath = "./video/" + videoArray[i];
-
-                        //adding new person if it is not there already
-
-                        var tempPerson = new Person();
-                        tempPerson.name = tempArray[2] + tempArray[3];
-                        tempPerson.image.src = "./faceimages/" + tempArray[3] + ".0.jpg";
-                        tempPerson.number = tempArray[3];
-
-                        var checkExist = false;
-                        for (var j = 0; j < examplePeople.length; j++) {
-                            if (examplePeople[j].name.includes(tempPerson.name)) {
-                                checkExist = true;
-=======
                     console.log(emotionArray[0])
                     fetch("/thumbnails").then(response => response.json()).then(thumbnails => {
                         var thumbnailArray = thumbnails.thumbnails;
@@ -109,7 +85,6 @@ window.addEventListener('load',
                                 if (temp.includes(videoArray[i].replace(".mp4", ""))) {
                                     tempClip.thumbnail.src = "./MQP Screenshots/" + thumbnailArray[k]
                                 }
->>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
                             }
                             //adding new person if it is not there already
 
@@ -125,10 +100,6 @@ window.addEventListener('load',
                                 }
 
 
-<<<<<<< HEAD
-                        exampleClips.push(tempClip);
-                    }
-=======
                             }
 
                             if (checkExist == false) {
@@ -138,7 +109,6 @@ window.addEventListener('load',
 
 
 
->>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
 
                             exampleClips.push(tempClip);
                         }
@@ -256,11 +226,7 @@ function fillClipsSection() {
     //fills clip section
     console.log("I am about to fill clips");
 
-<<<<<<< HEAD
-    for (var i = 0; i < 3; i + 1) {
-=======
     for (var i = 0; i < 217; i + 3) {
->>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
 
         var clipBlockName = "clipBlock" + "-" + i.toString()
 
@@ -307,35 +273,11 @@ function fillClipsSection() {
                 document.getElementById(clipBlockName).appendChild(cln)
             } else {
                 console.log("i went in the other one")
-<<<<<<< HEAD
-                var cln = document.getElementById("clipEntry" + "-" + (j - 1).toString()).cloneNode(true)
-
-                //document.getElementById("clipEntry" + "-" + (j - 1).toString()).setAttribute('style', 'overflow: hidden; margin: 50px;')
-
-                document.getElementById("clipEntry" + "-" + (j - 1).toString()).id = "clipEntry" + "-" + (j + 1).toString()
-
-                document.getElementById("thumbnail" + "-" + (j - 1).toString()).replaceWith(exampleClips[j].thumbnail);
-                document.getElementById("thumbnail-0").setAttribute('onclick', "displayMe(this)");
-                document.getElementById("thumbnail-0").setAttribute('id', "thumbnail" + "-" + (j + 1).toString());
-
-                document.getElementById("clipName" + "-" + (j - 1).toString()).setAttribute('id', "clipName" + "-" + (j + 1).toString())
-                document.getElementById("clipTimeStamp" + "-" + (j - 1).toString()).setAttribute('id', "clipTimeStamp" + "-" + (j + 1).toString())
-
-
-                document.getElementById("clipName" + "-" + (j + 1).toString()).innerHTML = exampleClips[j].name
-
-=======
                 console.log(j);
                 console.log(exampleClips[j]);
->>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
 
                 var cln = document.getElementById("clipEntry-0").cloneNode(true)
                 document.getElementById(clipBlockName).appendChild(cln)
-<<<<<<< HEAD
-            }
-        }
-
-=======
 
                 document.getElementById("clipEntry-0").id = "clipEntry" + "-" + (j).toString()
                 document.getElementById("thumbnail-0").setAttribute('id', "thumbnail" + "-" + (j).toString())
@@ -391,7 +333,6 @@ function fillClipsSection() {
         //   example.parentElement.removeChild(example);
         // }
 
->>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
         i = j
 
         var newClipBlock = document.createElement("div")
@@ -401,20 +342,9 @@ function fillClipsSection() {
         newClipBlock.id = "clipBlock" + "-" + i.toString()
         document.getElementById("data").appendChild(newClipBlock)
     }
-<<<<<<< HEAD
 }
 
 function findCurrentPersonInTop3Region(image) {
-=======
-    document.getElementById("clipBlock-216").style.display = "none";
-
-}
-
-
-
-
-function personOnClick(image) {
->>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
     var pfp = document.getElementsByClassName("profilePic");
 
     pfp[0].src = image.src;
