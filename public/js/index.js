@@ -56,6 +56,7 @@ window.addEventListener('load',
         }).then(function(response) {
             console.log("Im in the fetch!");
             return response.json();
+
         }).then(function(data) {
             var videoArray = data.videos;
             var emotionArray;
@@ -63,6 +64,7 @@ window.addEventListener('load',
                 .then(response => response.json())
                 .then(json => {
                     emotionArray = json;
+<<<<<<< HEAD
 
                     for (var i = 0; i < videoArray.length; i++) {
                         var tempArray = videoArray[i].replace(".mp4", "").split("-");
@@ -85,21 +87,66 @@ window.addEventListener('load',
                         for (var j = 0; j < examplePeople.length; j++) {
                             if (examplePeople[j].name.includes(tempPerson.name)) {
                                 checkExist = true;
+=======
+                    console.log(emotionArray[0])
+                    fetch("/thumbnails").then(response => response.json()).then(thumbnails => {
+                        var thumbnailArray = thumbnails.thumbnails;
+                        for (var i = 0; i < videoArray.length; i++) {
+                            var tempArray = videoArray[i].replace(".mp4", "").split("-");
+                            var tempClip = new Clip();
+                            tempClip.name = tempArray[0] + tempArray[1];
+                            tempClip.emotion = tempArray[0];
+                            tempClip.emotionValue = tempArray[1];
+                            //tempClip.people.push(tempArray[2] + tempArray[3]);
+                            tempClip.videoPath = "./video/" + videoArray[i];
+                            //console.log(emotionArray[i]["Start Value"][1]);
+                            tempClip.timestamp.push(emotionArray[i]["Start Value"][1] + emotionArray[i]["Start Value"][2] + emotionArray[i]["Start Value"][3]);
+
+                            tempClip.timestamp.push(emotionArray[i]["Stop Value"][1] + emotionArray[i]["Stop Value"][2] + emotionArray[i]["Stop Value"][3]);
+
+                            for (var k = 0; k < thumbnailArray.length; k++) {
+                                var temp = thumbnailArray[k].replace(".png", "")
+                                if (temp.includes(videoArray[i].replace(".mp4", ""))) {
+                                    tempClip.thumbnail.src = "./MQP Screenshots/" + thumbnailArray[k]
+                                }
+>>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
                             }
+                            //adding new person if it is not there already
+
+                            var tempPerson = new Person();
+                            tempPerson.name = tempArray[2] + tempArray[3];
+                            tempPerson.image.src = "./faceimages/" + tempArray[3] + ".0.jpg";
+                            tempPerson.number = tempArray[3];
+
+                            var checkExist = false;
+                            for (var j = 0; j < examplePeople.length; j++) {
+                                if (examplePeople[j].name.includes(tempPerson.name)) {
+                                    checkExist = true;
+                                }
 
 
-                        }
-
-                        if (checkExist == false) {
-                            examplePeople.push(tempPerson);
-                        }
-                        tempClip.people.push(tempPerson);
-
+<<<<<<< HEAD
                         exampleClips.push(tempClip);
                     }
+=======
+                            }
 
-                    fillPeopleSection();
-                    fillClipsSection();
+                            if (checkExist == false) {
+                                examplePeople.push(tempPerson);
+                            }
+                            tempClip.people.push(tempPerson);
+
+
+
+>>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
+
+                            exampleClips.push(tempClip);
+                        }
+
+                        fillPeopleSection();
+                        fillClipsSection();
+                    });
+
                 });
 
 
@@ -193,15 +240,31 @@ function fillPeopleSection() {
 
 }
 
+function convertTime(timeStamp) {
+    var minutes = Math.floor(timeStamp / 60)
+    var seconds = timeStamp - minutes * 60;
+    if (seconds < 10) {
+        return minutes.toString() + ":0" + seconds.toString()
+    } else {
+        return minutes.toString() + ":" + seconds.toString()
+    }
+
+}
+
+
 function fillClipsSection() {
     //fills clip section
     console.log("I am about to fill clips");
 
+<<<<<<< HEAD
     for (var i = 0; i < 3; i + 1) {
+=======
+    for (var i = 0; i < 217; i + 3) {
+>>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
 
         var clipBlockName = "clipBlock" + "-" + i.toString()
 
-        for (var j = i; j < i + 7 && i < 217; j++) {
+        for (var j = i; j < i + 3 && j < 217; j++) {
             console.log("I am number" + i.toString());
             if (j == 0) {
                 console.log("I went in the first one")
@@ -211,16 +274,40 @@ function fillClipsSection() {
                 document.getElementById("clipEntry-0").id = "clipEntry" + "-" + (j + 1).toString()
 
                 document.getElementById("thumbnail-0").replaceWith(exampleClips[j].thumbnail)
+                document.getElementById("thumbnail-0").setAttribute('style', "max-width: 128px; max-height: 128px;")
+                document.getElementById("thumbnail-0").setAttribute('onclick', "displayMe(this)");
                 document.getElementById("thumbnail-0").setAttribute('id', "thumbnail" + "-" + (j + 1).toString())
+
                 document.getElementById("clipName-0").setAttribute('id', "clipName" + "-" + (j + 1).toString())
                 document.getElementById("clipTimeStamp-0").setAttribute('id', "clipTimeStamp" + "-" + (j + 1).toString())
 
+                var timeStamps = document.getElementById("clipTimeStamp-" + (j + 1).toString()).childNodes;
+                console.log(exampleClips[j].timestamp);
+                var firstTimeStamp;
+                var secondTimeStamp;
+                if (exampleClips[j].timestamp[0].includes(".")) {
+                    firstTimeStamp = exampleClips[j].timestamp[0].split(".");
+                    timeStamps[0].innerHTML = firstTimeStamp[0]
+                    timeStamps[0].innerHTML = convertTime(parseInt(firstTimeStamp[0]))
+                } else {
+                    firstTimeStamp = exampleClips[j].timestamp[0];
+                    timeStamps[0].innerHTML = convertTime(parseInt(firstTimeStamp))
+                }
+
+                if (exampleClips[j].timestamp[1].includes(".")) {
+                    secondTimeStamp = exampleClips[j].timestamp[1].split(".");
+                    timeStamps[2].innerHTML = convertTime(parseInt(secondTimeStamp[0]))
+                } else {
+                    secondTimeStamp = exampleClips[j].timestamp[1];
+                    timeStamps[2].innerHTML = convertTime(parseInt(secondTimeStamp))
+                }
 
                 document.getElementById("clipName" + "-" + (j + 1).toString()).innerHTML = exampleClips[j].name
-
+                j++
                 document.getElementById(clipBlockName).appendChild(cln)
             } else {
                 console.log("i went in the other one")
+<<<<<<< HEAD
                 var cln = document.getElementById("clipEntry" + "-" + (j - 1).toString()).cloneNode(true)
 
                 //document.getElementById("clipEntry" + "-" + (j - 1).toString()).setAttribute('style', 'overflow: hidden; margin: 50px;')
@@ -237,11 +324,74 @@ function fillClipsSection() {
 
                 document.getElementById("clipName" + "-" + (j + 1).toString()).innerHTML = exampleClips[j].name
 
+=======
+                console.log(j);
+                console.log(exampleClips[j]);
+>>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
 
+                var cln = document.getElementById("clipEntry-0").cloneNode(true)
                 document.getElementById(clipBlockName).appendChild(cln)
+<<<<<<< HEAD
             }
         }
 
+=======
+
+                document.getElementById("clipEntry-0").id = "clipEntry" + "-" + (j).toString()
+                document.getElementById("thumbnail-0").setAttribute('id', "thumbnail" + "-" + (j).toString())
+                document.getElementById("clipName-0").setAttribute('id', "clipName" + "-" + (j).toString())
+                document.getElementById("clipTimeStamp-0").setAttribute('id', "clipTimeStamp" + "-" + (j).toString())
+
+                //document.getElementById("clipEntry" + "-" + (j - 1).toString()).setAttribute('style', 'overflow: hidden; margin: 50px;')
+
+
+                document.getElementById("thumbnail" + "-" + (j).toString()).setAttribute('onclick', "displayMe(this)");
+                document.getElementById("thumbnail" + "-" + (j).toString()).setAttribute('src', exampleClips[j].thumbnail.src)
+                document.getElementById("thumbnail" + "-" + (j).toString()).setAttribute('style', "max-width: 128px; max-height: 128px;")
+
+
+                document.getElementById("clipName" + "-" + (j).toString()).innerHTML = exampleClips[j].name
+
+                var timeStamps = document.getElementById("clipTimeStamp-" + j.toString()).childNodes;
+                console.log(exampleClips[j].timestamp);
+                var firstTimeStamp;
+                var secondTimeStamp;
+                if (exampleClips[j].timestamp[0].includes(".")) {
+                    firstTimeStamp = exampleClips[j].timestamp[0].split(".");
+                    timeStamps[0].innerHTML = firstTimeStamp[0]
+                    timeStamps[0].innerHTML = convertTime(parseInt(firstTimeStamp[0]))
+                } else {
+                    firstTimeStamp = exampleClips[j].timestamp[0];
+                    timeStamps[0].innerHTML = convertTime(parseInt(firstTimeStamp))
+                }
+
+                if (exampleClips[j].timestamp[1].includes(".")) {
+                    secondTimeStamp = exampleClips[j].timestamp[1].split(".");
+                    timeStamps[2].innerHTML = convertTime(parseInt(secondTimeStamp[0]))
+                } else {
+                    secondTimeStamp = exampleClips[j].timestamp[1];
+                    timeStamps[2].innerHTML = convertTime(parseInt(secondTimeStamp))
+                }
+
+
+
+
+
+
+
+
+
+
+
+            }
+        }
+
+        // if (i == 0) {
+        //   var example = document.getElementById("clipEntry-0")
+        //   example.parentElement.removeChild(example);
+        // }
+
+>>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
         i = j
 
         var newClipBlock = document.createElement("div")
@@ -251,9 +401,20 @@ function fillClipsSection() {
         newClipBlock.id = "clipBlock" + "-" + i.toString()
         document.getElementById("data").appendChild(newClipBlock)
     }
+<<<<<<< HEAD
 }
 
 function findCurrentPersonInTop3Region(image) {
+=======
+    document.getElementById("clipBlock-216").style.display = "none";
+
+}
+
+
+
+
+function personOnClick(image) {
+>>>>>>> f78ba64c6f6971f137d9624b2a1c5949325afc61
     var pfp = document.getElementsByClassName("profilePic");
 
     pfp[0].src = image.src;
