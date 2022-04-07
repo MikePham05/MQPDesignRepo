@@ -106,24 +106,14 @@ window.addEventListener('load',
                                 examplePeople.push(tempPerson);
                             }
                             tempClip.people.push(tempPerson);
-
-
-
-
                             exampleClips.push(tempClip);
                         }
-
                         fillPeopleSection();
+                        fillProfileSection();
                         fillClipsSection();
                     });
-
                 });
-
-
         })
-
-
-
     }, false);
 
 
@@ -206,8 +196,6 @@ function fillPeopleSection() {
     }
 
     document.querySelector("[id=studentRow]").remove();
-
-
 }
 
 function convertTime(timeStamp) {
@@ -221,6 +209,10 @@ function convertTime(timeStamp) {
 
 }
 
+function fillProfileSection() {
+    var defaultPersonImage = examplePeople[0];
+    displayTop3ClipAccordingtoEmotion(defaultPersonImage, "Top-3");
+}
 
 function fillClipsSection() {
     //fills clip section
@@ -286,7 +278,6 @@ function fillClipsSection() {
 
                 //document.getElementById("clipEntry" + "-" + (j - 1).toString()).setAttribute('style', 'overflow: hidden; margin: 50px;')
 
-
                 document.getElementById("thumbnail" + "-" + (j).toString()).setAttribute('onclick', "displayMe(this)");
                 document.getElementById("thumbnail" + "-" + (j).toString()).setAttribute('src', exampleClips[j].thumbnail.src)
                 document.getElementById("thumbnail" + "-" + (j).toString()).setAttribute('style', "max-width: 128px; max-height: 128px;")
@@ -314,25 +305,8 @@ function fillClipsSection() {
                     secondTimeStamp = exampleClips[j].timestamp[1];
                     timeStamps[2].innerHTML = convertTime(parseInt(secondTimeStamp))
                 }
-
-
-
-
-
-
-
-
-
-
-
             }
         }
-
-        // if (i == 0) {
-        //   var example = document.getElementById("clipEntry-0")
-        //   example.parentElement.removeChild(example);
-        // }
-
         i = j
 
         var newClipBlock = document.createElement("div")
@@ -346,6 +320,9 @@ function fillClipsSection() {
 
 function findCurrentPersonInTop3Region(image) {
     var pfp = document.getElementsByClassName("profilePic");
+    if (pfp.item(0) == null) {
+        return examplePeople[0];
+    }
 
     pfp[0].src = image.src;
 
@@ -412,7 +389,7 @@ function personOnClick(image) {
 
 
     // Displaying top 3 in general
-    // displayTop3ClipAccordingtoEmotion(currentPerson, "Top-3");
+    displayTop3ClipAccordingtoEmotion(currentPerson, "Top-3");
 }
 
 
