@@ -64,7 +64,6 @@ window.addEventListener('load',
                 .then(response => response.json())
                 .then(json => {
                     emotionArray = json;
-                    console.log(emotionArray[0])
                     fetch("/thumbnails").then(response => response.json()).then(thumbnails => {
                         var thumbnailArray = thumbnails.thumbnails;
                         for (var i = 0; i < videoArray.length; i++) {
@@ -73,11 +72,8 @@ window.addEventListener('load',
                             tempClip.name = tempArray[0] + tempArray[1];
                             tempClip.emotion = tempArray[0];
                             tempClip.emotionValue = tempArray[1];
-                            //tempClip.people.push(tempArray[2] + tempArray[3]);
                             tempClip.videoPath = "./video/" + videoArray[i];
-                            //console.log(emotionArray[i]["Start Value"][1]);
                             tempClip.timestamp.push(emotionArray[i]["Start Value"][1] + emotionArray[i]["Start Value"][2] + emotionArray[i]["Start Value"][3]);
-
                             tempClip.timestamp.push(emotionArray[i]["Stop Value"][1] + emotionArray[i]["Stop Value"][2] + emotionArray[i]["Stop Value"][3]);
 
                             for (var k = 0; k < thumbnailArray.length; k++) {
@@ -98,8 +94,6 @@ window.addEventListener('load',
                                 if (examplePeople[j].name.includes(tempPerson.name)) {
                                     checkExist = true;
                                 }
-
-
                             }
 
                             if (checkExist == false) {
@@ -110,13 +104,12 @@ window.addEventListener('load',
                         }
                         fillPeopleSection();
                         fillProfileSection();
+                        fillGraphSection();
                         fillClipsSection();
                     });
                 });
         })
     }, false);
-
-
 
 function fillPeopleSection() {
     for (var i = 0; i < examplePeople.length; i++) {
@@ -139,7 +132,6 @@ function fillPeopleSection() {
             }
 
             examplePeople[i].topClips = result;
-            console.log("added clip for" + examplePeople[i].name)
         }
     }
 
@@ -164,13 +156,11 @@ function fillPeopleSection() {
                 } else {
                     children[j].childNodes[1].childNodes[1].src = examplePeople[k].image.src
                     children[j].childNodes[1].childNodes[1].id = "image-" + examplePeople[k].name
-                    console.log("added " + examplePeople[k].name + "'s picture'")
                     k++;
                 }
             }
         }
         document.getElementById("studentBox").appendChild(cln)
-        console.log("copied and placed a student row")
     }
 
     //delete placeholders & extras
@@ -209,6 +199,69 @@ function convertTime(timeStamp) {
 
 }
 
+/*
+    TODO: Add graph support for by emotion, people
+*/
+
+function fillGraphSection() {
+    const svg = d3.select('svg');
+    var exampleClips0 = [];
+    var keyWord = "Anger";
+    for (let i = 0; i < exampleClips.length; i++) {
+        var emotion = exampleClips[i].emotion;
+        if (emotion.includes(keyWord)) {
+            exampleClips0.push(exampleClips[i]);
+        }
+    }
+
+    var freq = new Map();
+
+    for (let i = 0; i < exampleClips0.length; i++) {
+        const key = parseInt(exampleClips0[i].emotionValue);
+        if (!freq.has(key)) {
+            freq.set(key, 0);
+        }
+        const oldValue = freq.get(key);
+        freq.set(key, oldValue + 1);
+    }
+
+    // sort based on intensity
+    freq = new Map([...freq].sort((a, b) => a[0] - b[0]));
+    const valueArray = Array.from(freq.values());
+    var maxFrequency = Math.max(...valueArray);
+    var nameDomain = freq.keys();
+
+    const width = +svg.attr('width');
+    const height = +svg.attr('height');
+    const margin = {top: 20, bot: 20, left: 20, right: 20};
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bot;
+
+    const yScale = d3.scaleLinear()
+        .domain([0, maxFrequency])
+        .range([innerHeight, 0]);
+
+    const xScale = d3.scaleBand()
+        .domain(nameDomain)
+        .range([0, innerWidth]);
+    
+    const g = svg.append('g')
+        .attr('transform', `translate(${margin.left},${margin.top}`);
+        
+    g.append('g').call(d3.axisLeft(yScale))
+        .attr('transform', `translate(${margin.left}, 0)`);
+    g.append('g').call(d3.axisBottom(xScale))
+        .attr('transform', `translate(${margin.left}, ${innerHeight})`);
+  
+    g.selectAll("rect").data(freq)
+        .enter().append("rect")
+        .attr('x', d => 23)
+        .attr('y', d => yScale(d.value))
+        .attr('width', xScale.bandwidth())
+        .attr('height', d => innerHeight - yScale(d.value));
+
+}
+
 function fillProfileSection() {
     var defaultPersonImage = examplePeople[0];
     displayTop3ClipAccordingtoEmotion(defaultPersonImage, "Top-3");
@@ -216,31 +269,23 @@ function fillProfileSection() {
 
 function fillClipsSection() {
     //fills clip section
-    console.log("I am about to fill clips");
 
     for (var i = 0; i < 217; i + 3) {
 
         var clipBlockName = "clipBlock" + "-" + i.toString()
 
         for (var j = i; j < i + 3 && j < 217; j++) {
-            console.log("I am number" + i.toString());
             if (j == 0) {
-                console.log("I went in the first one")
                 var cln = document.getElementById("clipEntry-0").cloneNode(true)
-
-
                 document.getElementById("clipEntry-0").id = "clipEntry" + "-" + (j + 1).toString()
-
                 document.getElementById("thumbnail-0").replaceWith(exampleClips[j].thumbnail)
                 document.getElementById("thumbnail-0").setAttribute('style', "max-width: 128px; max-height: 128px;")
                 document.getElementById("thumbnail-0").setAttribute('onclick', "displayMe(this)");
                 document.getElementById("thumbnail-0").setAttribute('id', "thumbnail" + "-" + (j + 1).toString())
-
                 document.getElementById("clipName-0").setAttribute('id', "clipName" + "-" + (j + 1).toString())
                 document.getElementById("clipTimeStamp-0").setAttribute('id', "clipTimeStamp" + "-" + (j + 1).toString())
 
                 var timeStamps = document.getElementById("clipTimeStamp-" + (j + 1).toString()).childNodes;
-                console.log(exampleClips[j].timestamp);
                 var firstTimeStamp;
                 var secondTimeStamp;
                 if (exampleClips[j].timestamp[0].includes(".")) {
@@ -264,9 +309,6 @@ function fillClipsSection() {
                 j++
                 document.getElementById(clipBlockName).appendChild(cln)
             } else {
-                console.log("i went in the other one")
-                console.log(j);
-                console.log(exampleClips[j]);
 
                 var cln = document.getElementById("clipEntry-0").cloneNode(true)
                 document.getElementById(clipBlockName).appendChild(cln)
@@ -286,7 +328,6 @@ function fillClipsSection() {
                 document.getElementById("clipName" + "-" + (j).toString()).innerHTML = exampleClips[j].name
 
                 var timeStamps = document.getElementById("clipTimeStamp-" + j.toString()).childNodes;
-                console.log(exampleClips[j].timestamp);
                 var firstTimeStamp;
                 var secondTimeStamp;
                 if (exampleClips[j].timestamp[0].includes(".")) {

@@ -8,9 +8,9 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="module" src="js/index.js"></script>
     <script type="text/javascript" src="emotionpeakvals.json"></script>
-
+    <script src="https://unpkg.com/d3@7.6.1/dist/d3.min.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -155,7 +155,8 @@
                             <a class="clipLink2"></a>
                         </p>
                     </div>
-
+                    
+                    
                     <div class="panel-block">
                         <p class="control has-icons-left">
                             <span class="panel-icon">
@@ -164,31 +165,13 @@
                             <a class="clipLink3"></a>
                         </p>
                     </div>
-                    <!--
-                    
-                    <a class="panel-block is-active">
-                        <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
-                      </span> bulma
-                    </a>
-                    <a class="panel-block">
-                        <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
-                      </span> marksheet
-                    </a>
-                    <a class="panel-block">
-                        <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
-                      </span> minireset.css
-                    </a>
-                    <a class="panel-block">
-                        <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
-                      </span> jgthms.github.io
-                    </a>-->
                 </article>
 
+<!-- this is where we add the graph distribution-->
 
+                <svg width="1200" height="500"></svg>
+
+<!-- this is where we add the graph distribution-->
 
                 <div class="tile is-ancestor">
                     <div class="tile is-parent is-vertical is-12">
