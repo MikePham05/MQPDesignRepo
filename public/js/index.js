@@ -13,6 +13,12 @@ $(document).ready(function() {
 
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
     });
+
+    function filterEmotionForGraph() {
+        var mylist = document.getElementById("myList");
+        var keyWord = mylist.options[mylist.selectedIndex].text;
+        fillGraphSection(keyWord);
+    }
 });
 
 class Clip {
@@ -104,12 +110,20 @@ window.addEventListener('load',
                         }
                         fillPeopleSection();
                         fillProfileSection();
-                        fillGraphSection();
+                        // filterEmotionForGraph();
                         fillClipsSection();
                     });
                 });
         })
     }, false);
+
+window.filterEmotionForGraph = function filterEmotionForGraph() {
+    var svg = d3.select('svg');
+    svg.selectAll('*').remove();
+    var mylist = document.getElementById("myList");
+    var keyWord = mylist.options[mylist.selectedIndex].text;
+    fillGraphSection(keyWord);
+}
 
 function fillPeopleSection() {
     for (var i = 0; i < examplePeople.length; i++) {
@@ -203,10 +217,9 @@ function convertTime(timeStamp) {
     TODO: Add graph support for by emotion, people
 */
 
-function fillGraphSection() {
-    const svg = d3.select('svg');
+function fillGraphSection(keyWord) {
+    var svg = d3.select('svg');
     var exampleClips0 = [];
-    var keyWord = "Anger";
     for (let i = 0; i < exampleClips.length; i++) {
         var emotion = exampleClips[i].emotion;
         if (emotion.includes(keyWord)) {
@@ -214,22 +227,47 @@ function fillGraphSection() {
         }
     }
 
-    var freq = new Map();
+    var freq = [];
+    var check = false;
 
     for (let i = 0; i < exampleClips0.length; i++) {
         const key = parseInt(exampleClips0[i].emotionValue);
-        if (!freq.has(key)) {
-            freq.set(key, 0);
+        check = false;
+        for (let j = 0; j < freq.length; j++) {
+            if (freq[j].value == key) { // key already exist
+                check = true;
+                freq[j].count += 1
+            }
         }
-        const oldValue = freq.get(key);
-        freq.set(key, oldValue + 1);
+
+        if (!check) {
+            freq.push({
+                value: key,
+                count: 1
+            })
+        }
     }
+    
+    const valueArray = Array.from(freq.values());
+    var valueDomain = freq.map(a => a.count);
+    const maxFrequency = Math.max(...valueDomain);
+    var nameDomain = freq.map(a => a.value);
+    const maxDomain = Math.max(...nameDomain);
+    for (let i = 0; i < maxDomain; i++) {
+        if (!nameDomain.includes(i)) {
+            freq.push({
+                value: i,
+                count: 0
+            });
+        }
+    }
+    
 
     // sort based on intensity
-    freq = new Map([...freq].sort((a, b) => a[0] - b[0]));
-    const valueArray = Array.from(freq.values());
-    var maxFrequency = Math.max(...valueArray);
-    var nameDomain = freq.keys();
+    freq.sort((a, b) => (a.value > b.value) ? 1 : -1)
+    nameDomain = freq.map(a => a.value)
+
+    console.log(freq)
 
     const width = +svg.attr('width');
     const height = +svg.attr('height');
@@ -246,7 +284,7 @@ function fillGraphSection() {
         .range([0, innerWidth]);
     
     const g = svg.append('g')
-        .attr('transform', `translate(${margin.left},${margin.top}`);
+        .attr('transform', `translate(${margin.left},${margin.top})`);
         
     g.append('g').call(d3.axisLeft(yScale))
         .attr('transform', `translate(${margin.left}, 0)`);
@@ -255,11 +293,25 @@ function fillGraphSection() {
   
     g.selectAll("rect").data(freq)
         .enter().append("rect")
-        .attr('x', d => 23)
-        .attr('y', d => yScale(d.value))
+        .attr('x', d => margin.left + xScale(d.value))
+        .attr('y', d => yScale(d.count))
         .attr('width', xScale.bandwidth())
-        .attr('height', d => innerHeight - yScale(d.value));
+        .attr('height', d => innerHeight - yScale(d.count))
+        .style("fill", "#69b3a2")
+        .style("opacity", 0.6);
 
+
+    var rawNameDomain = exampleClips0.map(d => parseInt(d.emotionValue));
+    const average = Math.round((rawNameDomain.reduce((a, b) => a + b, 0) / rawNameDomain.length) * 100) / 100;
+    const v = 2.54;
+    const std = 3.27;
+    svg.append("circle").attr("cx",980).attr("cy",130).attr("r", 6).style("fill", "#69b3a2")
+    svg.append("circle").attr("cx",980).attr("cy",160).attr("r", 6).style("fill", "#404080")
+    svg.append("circle").attr("cx",980).attr("cy",190).attr("r", 6).style("fill", "#69b3a2")
+    svg.append("text").attr("x", 1000).attr("y", 100).text("Significant Stats").style("font-size", "15px").attr("alignment-baseline","middle")
+    svg.append("text").attr("x", 1000).attr("y", 130).text("Mean: " + average).style("font-size", "15px").attr("alignment-baseline","middle")
+    svg.append("text").attr("x", 1000).attr("y", 160).text("Variance: " + v).style("font-size", "15px").attr("alignment-baseline","middle")
+    svg.append("text").attr("x", 1000).attr("y", 190).text("Standard Deviation: " + std).style("font-size", "15px").attr("alignment-baseline","middle")
 }
 
 function fillProfileSection() {

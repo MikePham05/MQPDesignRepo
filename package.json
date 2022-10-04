@@ -20,6 +20,7 @@
         "https": "^1.0.0",
         "jsdom": "^16.4.0",
         "libgif": "0.0.3",
+        "mathjs": "^11.2.1",
         "mdb-ui-kit": "^3.3.0",
         "mdbootstrap": "^4.19.2",
         "mongodb": "^3.6.4",
